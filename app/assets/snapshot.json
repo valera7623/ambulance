@@ -1,0 +1,522 @@
+{
+  "format_version": 1,
+  "fingerprint": "bundle:2e3cc376663db09bdc2d8f79ef81ad2f2371e0d8ff5284118b64a06e55e1e59f",
+  "exported_at": "2026-10-30T13:02:13+00:00",
+  "departments": [
+    {
+      "id": 1,
+      "slug": "cardiology",
+      "title": "🩺 КАРДИОЛОГИЯ",
+      "sort_order": 0,
+      "card_label_diagnosis": null,
+      "card_label_care": null,
+      "card_label_tactic": null
+    },
+    {
+      "id": 2,
+      "slug": "gynecology",
+      "title": "🚺 ГИНЕКОЛОГИЯ",
+      "sort_order": 1,
+      "card_label_diagnosis": null,
+      "card_label_care": null,
+      "card_label_tactic": null
+    },
+    {
+      "id": 3,
+      "slug": "ent_ophthal_stomat",
+      "title": "👂 ЛОР / ОФТАЛЬМОЛОГИЯ / СТОМАТОЛОГИЯ",
+      "sort_order": 2,
+      "card_label_diagnosis": null,
+      "card_label_care": null,
+      "card_label_tactic": null
+    },
+    {
+      "id": 4,
+      "slug": "neurology",
+      "title": "🧠 НЕВРОЛОГИЯ",
+      "sort_order": 3,
+      "card_label_diagnosis": null,
+      "card_label_care": null,
+      "card_label_tactic": null
+    },
+    {
+      "id": 5,
+      "slug": "pediatrics",
+      "title": "👶 ПЕДИАТРИЯ",
+      "sort_order": 4,
+      "card_label_diagnosis": null,
+      "card_label_care": null,
+      "card_label_tactic": null
+    },
+    {
+      "id": 6,
+      "slug": "psychiatry",
+      "title": "🧠 ПСИХИАТРИЯ",
+      "sort_order": 5,
+      "card_label_diagnosis": null,
+      "card_label_care": null,
+      "card_label_tactic": null
+    },
+    {
+      "id": 7,
+      "slug": "pulmonology",
+      "title": "🫁 ПУЛЬМОНОЛОГИЯ",
+      "sort_order": 6,
+      "card_label_diagnosis": null,
+      "card_label_care": null,
+      "card_label_tactic": null
+    },
+    {
+      "id": 8,
+      "slug": "infectious_diseases",
+      "title": "🦠 ИНФЕКЦИОННЫЕ ЗАБОЛЕВАНИЯ",
+      "sort_order": 7,
+      "card_label_diagnosis": null,
+      "card_label_care": null,
+      "card_label_tactic": null
+    },
+    {
+      "id": 9,
+      "slug": "therapy",
+      "title": "💊 ТЕРАПИЯ",
+      "sort_order": 8,
+      "card_label_diagnosis": null,
+      "card_label_care": null,
+      "card_label_tactic": null
+    },
+    {
+      "id": 10,
+      "slug": "toxicology",
+      "title": "☣️ ТОКСИКОЛОГИЯ",
+      "sort_order": 9,
+      "card_label_diagnosis": null,
+      "card_label_care": null,
+      "card_label_tactic": null
+    },
+    {
+      "id": 11,
+      "slug": "trauma",
+      "title": "🦴 ТРАВМА",
+      "sort_order": 10,
+      "card_label_diagnosis": null,
+      "card_label_care": null,
+      "card_label_tactic": null
+    },
+    {
+      "id": 12,
+      "slug": "urology",
+      "title": "🚽 УРОЛОГИЯ",
+      "sort_order": 11,
+      "card_label_diagnosis": null,
+      "card_label_care": null,
+      "card_label_tactic": null
+    },
+    {
+      "id": 13,
+      "slug": "surgery",
+      "title": "🔪 ХИРУРГИЯ",
+      "sort_order": 12,
+      "card_label_diagnosis": null,
+      "card_label_care": null,
+      "card_label_tactic": null
+    },
+    {
+      "id": 14,
+      "slug": "shock_coma",
+      "title": "⚠️ ШОКИ / КОМЫ (неотложные)",
+      "sort_order": 13,
+      "card_label_diagnosis": null,
+      "card_label_care": null,
+      "card_label_tactic": null
+    },
+    {
+      "id": 15,
+      "slug": "neonatal_resuscitation",
+      "title": "🩺 РЕАНИМАЦИЯ НОВОРОЖДЕННЫХ",
+      "sort_order": 14,
+      "card_label_diagnosis": null,
+      "card_label_care": null,
+      "card_label_tactic": null
+    }
+  ],
+  "diagnoses": [
+    {
+      "id": 1,
+      "stable_key": "bbb5541ac0390ccae4c09899c7891825405febffe7c9dc6742c0e2191195c30c",
+      "department_id": 2,
+      "display_code": "O14",
+      "title": "Гестационная гипертензия / преэклампсия (выбор по АД)",
+      "conditions_note": "Градация по артериальному давлению и признакам поражения органов — по локальному протоколу.",
+      "branch_prompt": "Уточните уровень АД:",
+      "mnn_hints": "MgSO4 — magnesium sulfate; methyldopa; nifedipine (по показаниям и регистрации)",
+      "is_emergency": true,
+      "include_in_shock_coma": false,
+      "search_blob": "гестационная гипертензия / преэклампсия (выбор по ад) o14   градация по артериальному давлению и признакам поражения органов — по локальному протоколу. mgso4 — magnesium sulfate; methyldopa; nifedipine (по показаниям и регистрации) ад ≥160/110 мм рт.ст. или поражение органов тяжёлая артериальная гипертензия / преэклампсия тяжёлой степени. магния сульфат — по утверждённому локально протоколу для преэклампсии/эклампсии (концентрация, скорость введения, поддерживающая инфузия).\nконтроль диуреза, рефлексов, дыхания.\nантигипертензивная терапия для целевых значений ад по локальному протоколу.\nподготовка к немедленной госпитализации. медицинская эвакуация в родильный стационар с возможностью интенсивной терапии и родоразрешения по показаниям. ад 140–159/90–109 без угрозы целевых органов умеренное повышение ад без выраженной симптоматики угрозы органов. мониторинг ад, чсс, состояния плода по возможности.\nпероральная антигипертензивная терапия по локальному протоколу при необходимости.\nпри ухудшении — перейти к алгоритму тяжёлой гипертензии. эвакуация в родильный стационар по срокам и правилам перевода; при стабильности и после консультации — возможно наблюдение/актив до поликлиники по решению врача.",
+      "source_file": null,
+      "department_sort_order": 1,
+      "ingest_sequence": 1,
+      "list_sort_tail": false
+    },
+    {
+      "id": 2,
+      "stable_key": "4f23801e75322301d2ea9ad767d9ee7c7343f589cea5bd332a7e38354ffa64d2",
+      "department_id": 2,
+      "display_code": "O15",
+      "title": "Эклампсия",
+      "conditions_note": "Судорожный синдром на фоне гипертензии беременной/в послеродовом периоде.",
+      "branch_prompt": null,
+      "mnn_hints": "MgSO4 — magnesium sulfate",
+      "is_emergency": true,
+      "include_in_shock_coma": false,
+      "search_blob": "эклампсия o15 обеспечение проходимости дыхательных путей; оксигенотерапия.\nмагния сульфат — по локальному протоколу токсикоза (скорость и поддержание).\nантигипертензивная терапия для контроля ад по протоколу.\nпосле купирования судорог — контроль сознания, диуреза, подготовка к госпитализации. немедленная медицинская эвакуация в стационар с интенсивной терапией и акушерским ресурсом. судорожный синдром на фоне гипертензии беременной/в послеродовом периоде. mgso4 — magnesium sulfate",
+      "source_file": null,
+      "department_sort_order": 2,
+      "ingest_sequence": 2,
+      "list_sort_tail": false
+    },
+    {
+      "id": 3,
+      "stable_key": "9dd10b4eaee8c6894284d85b023eeaa8a0922c33321ca5c802b40a31cee57b80",
+      "department_id": 2,
+      "display_code": "O00-O08",
+      "title": "Внематочная беременность (подозрение / нестабильное состояние)",
+      "conditions_note": "Гемодинамика, боль внизу живота, кровянистые выделения.",
+      "branch_prompt": null,
+      "mnn_hints": "IV fluids; analgesics",
+      "is_emergency": true,
+      "include_in_shock_coma": false,
+      "search_blob": "внематочная беременность (подозрение / нестабильное состояние) o00-o08 венозный доступ, инфузионная терапия кристаллоидными растворами по показаниям кровопотери/шока.\nаналгезия по протоколу; антибиотикопрофилактика — по локальным правилам.\nмониторинг ад, чсс, болевого синдрома.\nне проводить агрессивные диагностические манипуляции вне стационара при нестабильности. срочная медицинская эвакуация в хирургический/акушерский стационар. гемодинамика, боль внизу живота, кровянистые выделения. iv fluids; analgesics",
+      "source_file": null,
+      "department_sort_order": 3,
+      "ingest_sequence": 3,
+      "list_sort_tail": false
+    },
+    {
+      "id": 4,
+      "stable_key": "aa5aa10e31693b5534ce13f91f9082db371cb4555fea04088e43278329ab1bcf",
+      "department_id": 2,
+      "display_code": "O72",
+      "title": "Родовые кровотечения (раннее послеродовое)",
+      "conditions_note": "Оценка объёма кровопотери, тонус матки, гиповолемия.",
+      "branch_prompt": null,
+      "mnn_hints": "oxytocin; tranexamic acid",
+      "is_emergency": true,
+      "include_in_shock_coma": false,
+      "search_blob": "родовые кровотечения (раннее послеродовое) o72 массаж матки через переднюю брюшную стенку; при катетере мочевого пузыря — контроль диуреза.\nокситоцин — в/м или в/в струйно по локальному дозированию (осторожно при противопоказаниях).\nтранексамовая кислота — при доступности и по локальному протоколу.\nвенозный доступ, инфузия кристаллоидов; при шоке — по алгоритму гиповолемического шока.\nкоррекция коагулопатии — в стационаре. медицинская эвакуация в родильный стационар независимо от купирования кровотечения на этапе смп. оценка объёма кровопотери, тонус матки, гиповолемия. oxytocin; tranexamic acid",
+      "source_file": null,
+      "department_sort_order": 4,
+      "ingest_sequence": 4,
+      "list_sort_tail": false
+    },
+    {
+      "id": 5,
+      "stable_key": "1478ac76adeea68f5e0cb87c0408ff2f624d66082c8456d79283d6ba05f5c9b8",
+      "department_id": 2,
+      "display_code": "O71",
+      "title": "Разрыв матки (подозрение)",
+      "conditions_note": "Резкая боль, кровопотеря, нарушение гемодинамики, изменение состояния плода.",
+      "branch_prompt": null,
+      "mnn_hints": "IV access; IV fluids",
+      "is_emergency": true,
+      "include_in_shock_coma": false,
+      "search_blob": "разрыв матки (подозрение) o71 доступ к вене, инфузионная терапия; оксигенотерапия.\nминимизация переноса; мониторинг ад, чсс.\nне откладывать эвакуацию ради дообследования. немедленная медицинская эвакуация в родильный стационар с операционным блоком. резкая боль, кровопотеря, нарушение гемодинамики, изменение состояния плода. iv access; iv fluids",
+      "source_file": null,
+      "department_sort_order": 5,
+      "ingest_sequence": 5,
+      "list_sort_tail": false
+    },
+    {
+      "id": 6,
+      "stable_key": "155507ca479d5c2bb4aea4e6a3d5e4d3bc8b244a45b232948e7a2e4da2c93952",
+      "department_id": 2,
+      "display_code": "R57",
+      "title": "Шок (в акушерской практике — на фоне кровопотери / сепсиса)",
+      "conditions_note": "При САД <90 мм рт.ст. и признаках гипоперфузии начать инфузионную реанимацию.",
+      "branch_prompt": null,
+      "mnn_hints": "crystalloids; tranexamic acid",
+      "is_emergency": true,
+      "include_in_shock_coma": false,
+      "search_blob": "шок (в акушерской практике — на фоне кровопотери / сепсиса) r57 положение с приподнятыми нижними конечностями при отсутствии противопоказаний; тёплое одеяло.\nкислород; два периферических доступа; инфузия кристаллоидов болюсно по локальному протоколу шока.\nустранение причины (кровопотеря — прессинг матки, транексамовая кислота по показаниям).\nконтроль сознания, диуреза при возможности. медицинская эвакуация в стационар с реанимационным ресурсом; сообщить приёмному о «шоке». при сад <90 мм рт.ст. и признаках гипоперфузии начать инфузионную реанимацию. crystalloids; tranexamic acid",
+      "source_file": null,
+      "department_sort_order": 6,
+      "ingest_sequence": 6,
+      "list_sort_tail": false
+    },
+    {
+      "id": 7,
+      "stable_key": "739db4350f020f20bf742215f4973c180d7d3d3a295530703b299715901f1d3d",
+      "department_id": 2,
+      "display_code": "O91-O92",
+      "title": "Гнойный мастит / абсцесс молочной железы (тяжёлое течение)",
+      "conditions_note": "Лихорадка, выраженная интоксикация, флуктуация.",
+      "branch_prompt": null,
+      "mnn_hints": "antibiotics per local guideline",
+      "is_emergency": false,
+      "include_in_shock_coma": false,
+      "search_blob": "гнойный мастит / абсцесс молочной железы (тяжёлое течение) o91-o92 антибиотикотерапия эмпирически по локальному протоколу для лактационного мастита при системных симптомах.\nанальгезия; при абсцессе — дренирование в стационаре.\nподдержка гидратации. эвакуация в хирургический или гнойный стационар при абсцессе / нестабильности; при лёгком течении — актив в поликлинику по решению врача. лихорадка, выраженная интоксикация, флуктуация. antibiotics per local guideline",
+      "source_file": null,
+      "department_sort_order": 7,
+      "ingest_sequence": 7,
+      "list_sort_tail": false
+    },
+    {
+      "id": 8,
+      "stable_key": "5c537ea8ffa72ae39a36ffb739ab7027cd9f534e306acee6d85ea50c1399cbf4",
+      "department_id": 2,
+      "display_code": "N94",
+      "title": "Тазовая боль неясного генеза (исключить экстренную патологию)",
+      "conditions_note": "Дифференциально с внематочной, апоплексией яичника, кишечной патологией.",
+      "branch_prompt": null,
+      "mnn_hints": "analgesics",
+      "is_emergency": false,
+      "include_in_shock_coma": false,
+      "search_blob": "тазовая боль неясного генеза (исключить экстренную патологию) n94 венозный доступ при болевом синдроме и признаках гиповолемии.\nаналгезия по протоколу.\nмониторинг гемодинамики. при подозрении на хирургическую патологию — эвакуация в хирургический стационар; иначе актив в гинекологическую поликлинику/стационар по тяжести. дифференциально с внематочной, апоплексией яичника, кишечной патологией. analgesics",
+      "source_file": null,
+      "department_sort_order": 8,
+      "ingest_sequence": 8,
+      "list_sort_tail": false
+    }
+  ],
+  "subconditions": [
+    {
+      "id": 1,
+      "diagnosis_id": 1,
+      "code_label": "1",
+      "title": "АД ≥160/110 мм рт.ст. или поражение органов",
+      "conditions_detail": "Тяжёлая артериальная гипертензия / преэклампсия тяжёлой степени.",
+      "sort_order": 0
+    },
+    {
+      "id": 2,
+      "diagnosis_id": 1,
+      "code_label": "2",
+      "title": "АД 140–159/90–109 без угрозы целевых органов",
+      "conditions_detail": "Умеренное повышение АД без выраженной симптоматики угрозы органов.",
+      "sort_order": 1
+    }
+  ],
+  "treatments": [
+    {
+      "id": 1,
+      "diagnosis_id": 1,
+      "subcondition_id": null,
+      "body": ""
+    },
+    {
+      "id": 2,
+      "diagnosis_id": null,
+      "subcondition_id": 1,
+      "body": "Магния сульфат — по утверждённому локально протоколу для преэклампсии/эклампсии (концентрация, скорость введения, поддерживающая инфузия).\nКонтроль диуреза, рефлексов, дыхания.\nАнтигипертензивная терапия для целевых значений АД по локальному протоколу.\nПодготовка к немедленной госпитализации."
+    },
+    {
+      "id": 3,
+      "diagnosis_id": null,
+      "subcondition_id": 2,
+      "body": "Мониторинг АД, ЧСС, состояния плода по возможности.\nПероральная антигипертензивная терапия по локальному протоколу при необходимости.\nПри ухудшении — перейти к алгоритму тяжёлой гипертензии."
+    },
+    {
+      "id": 4,
+      "diagnosis_id": 2,
+      "subcondition_id": null,
+      "body": "Обеспечение проходимости дыхательных путей; оксигенотерапия.\nМагния сульфат — по локальному протоколу токсикоза (скорость и поддержание).\nАнтигипертензивная терапия для контроля АД по протоколу.\nПосле купирования судорог — контроль сознания, диуреза, подготовка к госпитализации."
+    },
+    {
+      "id": 5,
+      "diagnosis_id": 3,
+      "subcondition_id": null,
+      "body": "Венозный доступ, инфузионная терапия кристаллоидными растворами по показаниям кровопотери/шока.\nАналгезия по протоколу; антибиотикопрофилактика — по локальным правилам.\nМониторинг АД, ЧСС, болевого синдрома.\nНе проводить агрессивные диагностические манипуляции вне стационара при нестабильности."
+    },
+    {
+      "id": 6,
+      "diagnosis_id": 4,
+      "subcondition_id": null,
+      "body": "Массаж матки через переднюю брюшную стенку; при катетере мочевого пузыря — контроль диуреза.\nОкситоцин — в/м или в/в струйно по локальному дозированию (осторожно при противопоказаниях).\nТранексамовая кислота — при доступности и по локальному протоколу.\nВенозный доступ, инфузия кристаллоидов; при шоке — по алгоритму гиповолемического шока.\nКоррекция коагулопатии — в стационаре."
+    },
+    {
+      "id": 7,
+      "diagnosis_id": 5,
+      "subcondition_id": null,
+      "body": "Доступ к вене, инфузионная терапия; оксигенотерапия.\nМинимизация переноса; мониторинг АД, ЧСС.\nНе откладывать эвакуацию ради дообследования."
+    },
+    {
+      "id": 8,
+      "diagnosis_id": 6,
+      "subcondition_id": null,
+      "body": "Положение с приподнятыми нижними конечностями при отсутствии противопоказаний; тёплое одеяло.\nКислород; два периферических доступа; инфузия кристаллоидов болюсно по локальному протоколу шока.\nУстранение причины (кровопотеря — прессинг матки, транексамовая кислота по показаниям).\nКонтроль сознания, диуреза при возможности."
+    },
+    {
+      "id": 9,
+      "diagnosis_id": 7,
+      "subcondition_id": null,
+      "body": "Антибиотикотерапия эмпирически по локальному протоколу для лактационного мастита при системных симптомах.\nАнальгезия; при абсцессе — дренирование в стационаре.\nПоддержка гидратации."
+    },
+    {
+      "id": 10,
+      "diagnosis_id": 8,
+      "subcondition_id": null,
+      "body": "Венозный доступ при болевом синдроме и признаках гиповолемии.\nАналгезия по протоколу.\nМониторинг гемодинамики."
+    }
+  ],
+  "tactics": [
+    {
+      "id": 1,
+      "diagnosis_id": 1,
+      "subcondition_id": null,
+      "body": ""
+    },
+    {
+      "id": 2,
+      "diagnosis_id": null,
+      "subcondition_id": 1,
+      "body": "Медицинская эвакуация в родильный стационар с возможностью интенсивной терапии и родоразрешения по показаниям."
+    },
+    {
+      "id": 3,
+      "diagnosis_id": null,
+      "subcondition_id": 2,
+      "body": "Эвакуация в родильный стационар по срокам и правилам перевода; при стабильности и после консультации — возможно наблюдение/актив до поликлиники по решению врача."
+    },
+    {
+      "id": 4,
+      "diagnosis_id": 2,
+      "subcondition_id": null,
+      "body": "Немедленная медицинская эвакуация в стационар с интенсивной терапией и акушерским ресурсом."
+    },
+    {
+      "id": 5,
+      "diagnosis_id": 3,
+      "subcondition_id": null,
+      "body": "Срочная медицинская эвакуация в хирургический/акушерский стационар."
+    },
+    {
+      "id": 6,
+      "diagnosis_id": 4,
+      "subcondition_id": null,
+      "body": "Медицинская эвакуация в родильный стационар независимо от купирования кровотечения на этапе СМП."
+    },
+    {
+      "id": 7,
+      "diagnosis_id": 5,
+      "subcondition_id": null,
+      "body": "Немедленная медицинская эвакуация в родильный стационар с операционным блоком."
+    },
+    {
+      "id": 8,
+      "diagnosis_id": 6,
+      "subcondition_id": null,
+      "body": "Медицинская эвакуация в стационар с реанимационным ресурсом; сообщить приёмному о «шоке»."
+    },
+    {
+      "id": 9,
+      "diagnosis_id": 7,
+      "subcondition_id": null,
+      "body": "Эвакуация в хирургический или гнойный стационар при абсцессе / нестабильности; при лёгком течении — актив в поликлинику по решению врача."
+    },
+    {
+      "id": 10,
+      "diagnosis_id": 8,
+      "subcondition_id": null,
+      "body": "При подозрении на хирургическую патологию — эвакуация в хирургический стационар; иначе актив в гинекологическую поликлинику/стационар по тяжести."
+    }
+  ],
+  "medications": [
+    {
+      "id": 1,
+      "name_normalized": "magnesium sulfate",
+      "diagnosis_id": 1,
+      "subcondition_id": null,
+      "source_hint": "magnesium sulfate"
+    },
+    {
+      "id": 2,
+      "name_normalized": "methyldopa",
+      "diagnosis_id": 1,
+      "subcondition_id": null,
+      "source_hint": "methyldopa"
+    },
+    {
+      "id": 3,
+      "name_normalized": "nifedipine",
+      "diagnosis_id": 1,
+      "subcondition_id": null,
+      "source_hint": "nifedipine"
+    },
+    {
+      "id": 4,
+      "name_normalized": "magnesium sulfate",
+      "diagnosis_id": 2,
+      "subcondition_id": null,
+      "source_hint": "magnesium sulfate"
+    },
+    {
+      "id": 5,
+      "name_normalized": "iv fluids",
+      "diagnosis_id": 3,
+      "subcondition_id": null,
+      "source_hint": "iv fluids"
+    },
+    {
+      "id": 6,
+      "name_normalized": "analgesics",
+      "diagnosis_id": 3,
+      "subcondition_id": null,
+      "source_hint": "analgesics"
+    },
+    {
+      "id": 7,
+      "name_normalized": "oxytocin",
+      "diagnosis_id": 4,
+      "subcondition_id": null,
+      "source_hint": "oxytocin"
+    },
+    {
+      "id": 8,
+      "name_normalized": "tranexamic acid",
+      "diagnosis_id": 4,
+      "subcondition_id": null,
+      "source_hint": "tranexamic acid"
+    },
+    {
+      "id": 9,
+      "name_normalized": "iv access",
+      "diagnosis_id": 5,
+      "subcondition_id": null,
+      "source_hint": "iv access"
+    },
+    {
+      "id": 10,
+      "name_normalized": "iv fluids",
+      "diagnosis_id": 5,
+      "subcondition_id": null,
+      "source_hint": "iv fluids"
+    },
+    {
+      "id": 11,
+      "name_normalized": "crystalloids",
+      "diagnosis_id": 6,
+      "subcondition_id": null,
+      "source_hint": "crystalloids"
+    },
+    {
+      "id": 12,
+      "name_normalized": "tranexamic acid",
+      "diagnosis_id": 6,
+      "subcondition_id": null,
+      "source_hint": "tranexamic acid"
+    },
+    {
+      "id": 13,
+      "name_normalized": "antibiotics per local guideline",
+      "diagnosis_id": 7,
+      "subcondition_id": null,
+      "source_hint": "antibiotics per local guideline"
+    },
+    {
+      "id": 14,
+      "name_normalized": "analgesics",
+      "diagnosis_id": 8,
+      "subcondition_id": null,
+      "source_hint": "analgesics"
+    }
+  ]
+}

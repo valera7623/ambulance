@@ -1,0 +1,125 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ambulance.local/smp-content-snapshot.v1.json",
+  "title": "SMP content snapshot",
+  "description": "Read-only export of the clinical reference used by valera7623/my_telegram_bot. Favorites are not part of the snapshot. The bot already fills diagnoses.stable_key: sha256 of '{slug}|{display_code}|{title}' after strip+lower, title clipped to 500 characters (src/services/medical_ingest.py make_stable_key). Empty slug becomes therapy. Import also runs backfill_missing_stable_keys. This API copies a missing key into the snapshot only and does not write it back into the bot database. Fingerprint is app_meta.medical_source_fp when present. Section neonatal_resuscitation is rendered as one continuous document. Shock/coma is the shock_coma department, not every row with include_in_shock_coma.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "format_version",
+    "fingerprint",
+    "exported_at",
+    "departments",
+    "diagnoses",
+    "subconditions",
+    "treatments",
+    "tactics",
+    "medications"
+  ],
+  "properties": {
+    "format_version": { "const": 1 },
+    "fingerprint": { "type": "string", "minLength": 1 },
+    "exported_at": { "type": "string", "minLength": 1 },
+    "departments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "slug", "title", "sort_order"],
+        "properties": {
+          "id": { "type": "integer" },
+          "slug": { "type": "string" },
+          "title": { "type": "string" },
+          "sort_order": { "type": "integer" },
+          "card_label_diagnosis": { "type": ["string", "null"] },
+          "card_label_care": { "type": ["string", "null"] },
+          "card_label_tactic": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "diagnoses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "stable_key", "department_id", "title", "is_emergency", "include_in_shock_coma", "search_blob", "department_sort_order", "ingest_sequence", "list_sort_tail"],
+        "properties": {
+          "id": { "type": "integer" },
+          "stable_key": { "type": "string", "minLength": 64, "maxLength": 64 },
+          "department_id": { "type": "integer" },
+          "display_code": { "type": ["string", "null"] },
+          "title": { "type": "string" },
+          "conditions_note": { "type": ["string", "null"] },
+          "branch_prompt": { "type": ["string", "null"] },
+          "mnn_hints": { "type": ["string", "null"] },
+          "is_emergency": { "type": "boolean" },
+          "include_in_shock_coma": { "type": "boolean" },
+          "search_blob": { "type": "string" },
+          "source_file": { "type": ["string", "null"] },
+          "department_sort_order": { "type": "integer" },
+          "ingest_sequence": { "type": "integer" },
+          "list_sort_tail": { "type": "boolean" }
+        }
+      }
+    },
+    "subconditions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "diagnosis_id", "code_label", "title", "sort_order"],
+        "properties": {
+          "id": { "type": "integer" },
+          "diagnosis_id": { "type": "integer" },
+          "code_label": { "type": "string" },
+          "title": { "type": "string" },
+          "conditions_detail": { "type": ["string", "null"] },
+          "sort_order": { "type": "integer" }
+        }
+      }
+    },
+    "treatments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "body"],
+        "properties": {
+          "id": { "type": "integer" },
+          "diagnosis_id": { "type": ["integer", "null"] },
+          "subcondition_id": { "type": ["integer", "null"] },
+          "body": { "type": "string" }
+        }
+      }
+    },
+    "tactics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "body"],
+        "properties": {
+          "id": { "type": "integer" },
+          "diagnosis_id": { "type": ["integer", "null"] },
+          "subcondition_id": { "type": ["integer", "null"] },
+          "body": { "type": "string" }
+        }
+      }
+    },
+    "medications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "name_normalized", "diagnosis_id"],
+        "properties": {
+          "id": { "type": "integer" },
+          "name_normalized": { "type": "string" },
+          "diagnosis_id": { "type": "integer" },
+          "subcondition_id": { "type": ["integer", "null"] },
+          "source_hint": { "type": ["string", "null"] }
+        }
+      }
+    }
+  }
+}

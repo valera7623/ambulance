@@ -1,0 +1,25 @@
+name: smp_guide
+description: Клинические рекомендации для СМП. Офлайн-приложение с протоколами скорой медицинской помощи.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  crypto: 3.0.7
+  ffi: 2.2.0
+  http: 1.6.0
+  path: 1.9.1
+
+dev_dependencies:
+  flutter_lints: 6.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/snapshot.json
