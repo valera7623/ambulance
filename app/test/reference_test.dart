@@ -18,9 +18,15 @@ void main() {
     final json = jsonDecode(await file.readAsString()) as Map<String, dynamic>;
     final snapshot = Snapshot.fromJson(json);
     final gynecology = snapshot.departments.firstWhere((row) => row.slug == 'gynecology');
-    final o14 = snapshot.diagnoses.firstWhere((row) => row.displayCode == 'O14');
-    expect(o14.departmentId, gynecology.id);
-    expect(o14.stableKey, makeStableKey('gynecology', 'O14', o14.title));
+    final eclampsia = snapshot.diagnoses.firstWhere(
+      (row) => row.departmentId == gynecology.id && row.displayCode == '20',
+    );
+    expect(eclampsia.title, contains('Эклампсия'));
+    expect(
+      eclampsia.stableKey,
+      makeStableKey('gynecology', '20', eclampsia.title),
+    );
+    expect(snapshot.diagnoses.length, greaterThan(300));
     expect(snapshot.departments.map((row) => row.slug), contains('shock_coma'));
     expect(
       snapshot.departments.map((row) => row.slug),

@@ -39,8 +39,14 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Future<void> _reload() async {
     final departments = await _controller!.repository.departments();
+    final visible = <Department>[];
+    for (final department in departments) {
+      final diagnoses =
+          await _controller!.repository.diagnosesInDepartment(department.id);
+      if (diagnoses.isNotEmpty) visible.add(department);
+    }
     if (!mounted) return;
-    setState(() => _departments = departments);
+    setState(() => _departments = visible);
   }
 
   @override
@@ -78,12 +84,6 @@ class _HomeScreenState extends State<HomeScreen> {
             child: ListTile(
               dense: true,
               title: Text(controller.statusLine),
-              trailing: controller.loggedIn
-                  ? null
-                  : TextButton(
-                      onPressed: () => pushPath(context, '/login'),
-                      child: const Text('Войти'),
-                    ),
             ),
           ),
           Expanded(
@@ -603,7 +603,7 @@ class _LoginScreenState extends State<LoginScreen> {
         padding: const EdgeInsets.all(20),
         children: [
           const Text(
-            'Мастер-пароль открывает загрузку протоколов. Уже сохранённый справочник доступен без входа.',
+            'Мастер-пароль нужен только для обновления с сервера станции. Справочник на телефоне открывается без него.',
           ),
           const SizedBox(height: 16),
           TextField(

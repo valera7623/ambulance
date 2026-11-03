@@ -31,7 +31,7 @@ class ContentController extends ChangeNotifier {
       case SyncOutcome.offline:
         return 'Нет сети. Показан сохранённый справочник.$when';
       case SyncOutcome.authRequired:
-        return 'Войдите, чтобы обновлять протоколы.$when';
+        return 'Показан сохранённый справочник.$when';
       case SyncOutcome.upToDate:
         return 'Протоколы актуальны.$when';
       case SyncOutcome.updated:

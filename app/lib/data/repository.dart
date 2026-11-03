@@ -11,11 +11,16 @@ class ContentRepository {
   final AppDatabase db;
 
   Future<void> ensureBundled(String snapshotJson) async {
-    final rows = await db.query('SELECT COUNT(*) AS n FROM diagnoses');
-    if (rows.isNotEmpty && _int(rows.single['n']) > 0) return;
-    await replaceContent(
-      Snapshot.fromJson(jsonDecode(snapshotJson) as Map<String, dynamic>),
+    final snapshot = Snapshot.fromJson(
+      jsonDecode(snapshotJson) as Map<String, dynamic>,
     );
+    final rows = await db.query('SELECT COUNT(*) AS n FROM diagnoses');
+    final count = rows.isEmpty ? 0 : _int(rows.single['n']);
+    final localFingerprint = await meta('fingerprint') ?? '';
+    if (count > 0 && localFingerprint == snapshot.fingerprint) return;
+    final token = await meta('auth_token') ?? '';
+    if (count > 0 && token.isNotEmpty) return;
+    await replaceContent(snapshot);
   }
 
   Future<void> replaceContent(Snapshot snapshot) async {
