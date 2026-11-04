@@ -1,7 +1,7 @@
 {
   "format_version": 1,
-  "fingerprint": "bundle:c3665eea45ea940ba7581be4483050eb78118ab823ea58f2d43e3347d22eaa87",
-  "exported_at": "2026-11-03T10:46:38+00:00",
+  "fingerprint": "content:c5c67ef38ccb8ccf1f1b79cd754ce1ef48092601b8e6f1e6b179cd41dad7976a",
+  "exported_at": "2026-11-04T09:00:00+00:00",
   "departments": [
     {
       "id": 1,
@@ -5173,245 +5173,211 @@
       "list_sort_tail": true
     },
     {
-      "id": 189,
-      "stable_key": "c3c3409c33ad019bd07be076ef2a6006060f9b7a91c9ef7c8fef4a4c988aa947",
+      "id": 326,
+      "stable_key": "0d3de1f49a1d57ac07382b5a9342d68c499c614229ffffedff62a99c41270516",
       "department_id": 15,
       "display_code": null,
-      "title": "ПОКАЗАНИЯ К НАЧАЛУ",
+      "title": "Особенности проведения реанимации новорожденным",
       "conditions_note": null,
       "branch_prompt": null,
       "mnn_hints": null,
       "is_emergency": false,
       "include_in_shock_coma": false,
-      "search_blob": "показания к началу  признаки живорождения (достаточно одного) 1) самостоятельное дыхание; 2) сердцебиение (чсс); 3) пульсация пуповины; 4) произвольные движения мышц  ",
-      "source_file": "Реанимация новорожденных.docx",
+      "search_blob": "особенности проведения реанимации новорожденным на основании письма мз и ср рф от 21 апреля 2010 г. n 15-4/10/2-3204.",
+      "source_file": "Реанимация новорожденных__095211.docx",
       "department_sort_order": 1,
-      "ingest_sequence": 189,
+      "ingest_sequence": 1,
       "list_sort_tail": true
     },
     {
-      "id": 190,
-      "stable_key": "f85a048ee048636bf79ed979a48e460127bbef2ad6b282c1c0b3358ba395f032",
+      "id": 327,
+      "stable_key": "2c9445c846b517eb4a5b3e9819e7333dcefc6f3a8e7c10b5078ecf6b3ecc18fd",
       "department_id": 15,
       "display_code": null,
-      "title": "ЭТАП а",
+      "title": "I. Показания к началу реанимации",
       "conditions_note": null,
       "branch_prompt": null,
       "mnn_hints": null,
       "is_emergency": false,
       "include_in_shock_coma": false,
-      "search_blob": "этап а  начальные мероприятия 20-30 секунд: поддержание температуры, положение на спине, тактильная стимуляция (обсушивание, похлопывание по стопам/спине не более 10-15 сек), обеспечение проходимости дп  ",
-      "source_file": "Реанимация новорожденных.docx",
+      "search_blob": "i. показания к началу реанимации первичные реанимационные мероприятия осуществляются при наличии у ребенка показаний, при условии хотя бы одного признака живорождения: • самостоятельное дыхание;\n• сердцебиение (частота сердечных сокращений);\n• пульсация пуповины;\n• произвольные движения мышц.",
+      "source_file": "Реанимация новорожденных__095211.docx",
       "department_sort_order": 2,
-      "ingest_sequence": 190,
+      "ingest_sequence": 2,
       "list_sort_tail": true
     },
     {
-      "id": 191,
-      "stable_key": "9fa074901f58eefdb2cd0019216b550e4aec369b67223ed133e165171c9bcd7e",
+      "id": 328,
+      "stable_key": "65fc9ea259cd21339acb9824591e456ea8dfe4a4cf6b19101916f1dedb11168f",
       "department_id": 15,
       "display_code": null,
-      "title": "Санация ДП",
+      "title": "II. Последовательность основных реанимационных мероприятий",
       "conditions_note": null,
       "branch_prompt": null,
       "mnn_hints": null,
       "is_emergency": false,
       "include_in_shock_coma": false,
-      "search_blob": "санация дп  правила санации сначала рот → затем нос; разряжение ≤100 мм рт.ст., глубина ≤5 см, длительность ≤5 секунд  ",
-      "source_file": "Реанимация новорожденных.docx",
+      "search_blob": "ii. последовательность основных реанимационных мероприятий основные этапы реанимации новорождённого: а) начальные мероприятия (восстановление проходимости дыхательных путей, тактильная стимуляция и др.);\nб) искусственная вентиляция легких через лицевую/ларингиальную маску, интубация трахеи;\nв) непрямой массаж сердца;\nг) введение медикаментов.",
+      "source_file": "Реанимация новорожденных__095211.docx",
       "department_sort_order": 3,
-      "ingest_sequence": 191,
+      "ingest_sequence": 3,
       "list_sort_tail": true
     },
     {
-      "id": 192,
-      "stable_key": "4e5c979f0de3492aa9635bfeac8241f82b08ba510b4be6bcd7b8b7fd2140ccde",
+      "id": 329,
+      "stable_key": "93d90fc66d965c724be109e418a62cbec02a964bbe0e183e259fc7b1095f0ab9",
       "department_id": 15,
       "display_code": null,
-      "title": "Показания к интубации с санацией",
+      "title": "а) Начальные мероприятия",
       "conditions_note": null,
       "branch_prompt": null,
       "mnn_hints": null,
       "is_emergency": false,
       "include_in_shock_coma": false,
-      "search_blob": "показания к интубации с санацией  меконий + сниженный тонус + неэффективное/отсутствующее дыхание интубация → санация через эндотрахеальную трубку до полной аспирации  ",
-      "source_file": "Реанимация новорожденных.docx",
+      "search_blob": "а) начальные мероприятия начальные мероприятия занимают 20–30 секунд и включают в себя: • поддержание нормальной температуры тела новорожденного;\n• придание положения на спине;\n• тактильную стимуляцию: обсушивание ребенка, похлопывание новорожденного по стопам или поглаживание по спине не более 10–15 секунд;\n• обеспечение проходимости дыхательных путей.",
+      "source_file": "Реанимация новорожденных__095211.docx",
       "department_sort_order": 4,
-      "ingest_sequence": 192,
+      "ingest_sequence": 4,
       "list_sort_tail": true
     },
     {
-      "id": 193,
-      "stable_key": "64b419f40cf72fe1166389157f432691f5d3a3804ebb7f913966ac3ad3628f65",
+      "id": 330,
+      "stable_key": "e675bb41e5ae3a0886efb84e4b35301467a4f5de04004cd8aae32a84efaf4286",
       "department_id": 15,
       "display_code": null,
-      "title": "ЭТАП б",
+      "title": "Санация верхних дыхательных путей",
       "conditions_note": null,
       "branch_prompt": null,
       "mnn_hints": null,
       "is_emergency": false,
       "include_in_shock_coma": false,
-      "search_blob": "этап б  ивл через маску (начальный этап) мешок ≤240 мл, скорость o2 8 л/мин (≈40% o2), длительность 30 сек, затем оценить чсс  ",
-      "source_file": "Реанимация новорожденных.docx",
+      "search_blob": "санация верхних дыхательных путей санировать следует содержимое ротовой полости с помощью баллончика или специального катетера для санации верхних дыхательных путей, подключенного через тройник к аспиратору. • разряжение не более 100 мм рт. ст. (0,1 атм.);\n• катетер вводится на глубину не более 5 см (во избежание брадикардии, ларинго- и бронхоспазма);\n• продолжительность санации не более 5 секунд;\n• сначала санировать рот, затем, при необходимости, носовые ходы.",
+      "source_file": "Реанимация новорожденных__095211.docx",
       "department_sort_order": 5,
-      "ingest_sequence": 193,
+      "ingest_sequence": 5,
       "list_sort_tail": true
     },
     {
-      "id": 194,
-      "stable_key": "54b11388e95fecfe6c3be3bcf1e680ce3285c16a4447f03b6adf52fd93b36ea9",
+      "id": 331,
+      "stable_key": "bc7034fa1f7deb9990594ba891e412d7e5d17905e36b669dd9e0289dbf773319",
       "department_id": 15,
       "display_code": null,
-      "title": "ИВЛ маской >3-5 мин",
+      "title": "Показания к интубации с санацией трахеи",
       "conditions_note": null,
       "branch_prompt": null,
       "mnn_hints": null,
       "is_emergency": false,
       "include_in_shock_coma": false,
-      "search_blob": "ивл маской >3-5 мин  действие установить желудочный зонд  ",
-      "source_file": "Реанимация новорожденных.docx",
+      "search_blob": "показания к интубации с санацией трахеи наличие в околоплодных водах мекония, сниженного мышечного тонуса, неэффективного или ослабленного самостоятельного дыхания — показания к интубации трахеи с последующей санацией через эндотрахеальную трубку до полной аспирации содержимого трахеи. интубация → санация через эндотрахеальную трубку до полной аспирации содержимого трахеи.",
+      "source_file": "Реанимация новорожденных__095211.docx",
       "department_sort_order": 6,
-      "ingest_sequence": 194,
+      "ingest_sequence": 6,
       "list_sort_tail": true
     },
     {
-      "id": 195,
-      "stable_key": "2a1c5d7c60f1b70c767b6c5b3892ae3e35c95197419ac443f1bf3dcc49d53b88",
+      "id": 332,
+      "stable_key": "35b95247cc80e11628cd71266b89285eedda6d6b238df1635eb744915dd1842a",
       "department_id": 15,
       "display_code": null,
-      "title": "Оценка ИВЛ маской (30 сек) — ЧСС >100",
+      "title": "б) ИВЛ через маску / интубация трахеи",
       "conditions_note": null,
       "branch_prompt": null,
       "mnn_hints": null,
       "is_emergency": false,
       "include_in_shock_coma": false,
-      "search_blob": "оценка ивл маской (30 сек) — чсс >100  ивл эффективна продолжать ивл до восстановления  ",
-      "source_file": "Реанимация новорожденных.docx",
+      "search_blob": "б) ивл через маску / интубация трахеи в остальных случаях первичной реанимации новорожденных ивл следует начинать через лицевую маску с саморасправляющимся мешком объемом не более 240 мл. для проведения ивл воздушно-кислородной смесью необходимо подключить мешок к источнику кислорода и установить скорость потока 8 л/мин. такая скорость позволяет добиться концентрации в дыхательной смеси около 40%. начальный этап ивл маской проводится в течение 30 секунд. если масочная ивл затягивается более чем на 3–5 минут, следует установить желудочный зонд. для функционирования поточнорасправляющегося мешка необходимо подключение его к источнику газа и установление скорости потока 8 л/мин. мешок ≤240 мл; поток o₂ 8 л/мин (≈40% o₂); оценка чсс через 30 секунд; при ивл >3–5 мин — желудочный зонд.",
+      "source_file": "Реанимация новорожденных__095211.docx",
       "department_sort_order": 7,
-      "ingest_sequence": 195,
+      "ingest_sequence": 7,
       "list_sort_tail": true
     },
     {
-      "id": 196,
-      "stable_key": "e0d7d6d98071ecc7e0afb39ea96316aea21045e97099ee579e2559197990ec2a",
+      "id": 333,
+      "stable_key": "1d8767fe3faa9a7e4e6337242bdea19ce3c7da251f1c1494ed193ae392518aa3",
       "department_id": 15,
       "display_code": null,
-      "title": "Оценка ИВЛ маской (30 сек) — ЧСС >60 и <100",
+      "title": "Показания к немедленной интубации трахеи",
       "conditions_note": null,
       "branch_prompt": null,
       "mnn_hints": null,
       "is_emergency": false,
       "include_in_shock_coma": false,
-      "search_blob": "оценка ивл маской (30 сек) — чсс >60 и <100  проверить маску, разогнуть голову, увеличить давление, аспирация → еще 30 сек если чсс <100 → интубация трахеи  ",
-      "source_file": "Реанимация новорожденных.docx",
+      "search_blob": "показания к немедленной интубации трахеи немедленная интубация трахеи показана: • детям, родившимся с примесью мекония в околоплодных водах с угнетенным самостоятельным дыханием или его отсутствием и сниженным мышечным тонусом;\n• детям, родившимся ранее 27 недели беременности;\n• детям с подозрением на диафрагмальную грыжу.",
+      "source_file": "Реанимация новорожденных__095211.docx",
       "department_sort_order": 8,
-      "ingest_sequence": 196,
+      "ingest_sequence": 8,
       "list_sort_tail": true
     },
     {
-      "id": 197,
-      "stable_key": "09f5390dac5ade407ae6c0342c754c8630311035fe5d7386bc1b1a04d4e3c418",
+      "id": 334,
+      "stable_key": "0ed05b47b6f05c49d23308b748f9115e325ccf4ab764ddf2f2e6019831474a69",
       "department_id": 15,
       "display_code": null,
-      "title": "Показания к немедленной интубации",
+      "title": "Оценка эффективности ИВЛ через лицевую маску",
       "conditions_note": null,
       "branch_prompt": null,
       "mnn_hints": null,
       "is_emergency": false,
       "include_in_shock_coma": false,
-      "search_blob": "показания к немедленной интубации  подозрение на диафрагмальную грыжу интубировать сразу  ",
-      "source_file": "Реанимация новорожденных.docx",
+      "search_blob": "оценка эффективности ивл через лицевую маску через 30 секунд после начала ивл следует оценить чсс: • чсс более 100 уд./мин. — ивл эффективна; продолжить ивл до восстановления адекватного самостоятельного дыхания.\n• чсс менее 60 уд./мин. — выполнить интубацию трахеи и начать ивл через интубационную трубку. при сохраняющейся брадикардии менее 60 уд./мин. следует приступить к непрямому массажу сердца на фоне ивл через эндотрахеальную трубку со 100% концентрацией кислорода.\n• чсс больше 60, но менее 100 уд./мин.: проверить плотность прилегания маски, чуть больше разогнуть голову ребенка, увеличить давление на вдохе (если возможно), провести аспирацию из верхних дыхательных путей и продолжить ивл еще 30 секунд, после чего оценить чсс. при сохраняющейся брадикардии <100 уд./мин. следует выполнить интубацию трахеи.",
+      "source_file": "Реанимация новорожденных__095211.docx",
       "department_sort_order": 9,
-      "ingest_sequence": 197,
+      "ingest_sequence": 9,
       "list_sort_tail": true
     },
     {
-      "id": 198,
-      "stable_key": "6201ccbbcc6afd6b26caac324a68e897729d98dd14749b2a40ef59d37161492a",
+      "id": 335,
+      "stable_key": "7db42e8ede453eba3e2c157b5211d8b66510a9f57611e458548d6232bb98d125",
       "department_id": 15,
       "display_code": null,
-      "title": "Размер интубационной трубки",
+      "title": "Соответствие размеров интубационной трубки и массы тела",
       "conditions_note": null,
       "branch_prompt": null,
       "mnn_hints": null,
       "is_emergency": false,
       "include_in_shock_coma": false,
-      "search_blob": "размер интубационной трубки  диаметр 4 мм масса >3500 г  ",
-      "source_file": "Реанимация новорожденных.docx",
+      "search_blob": "соответствие размеров интубационной трубки и массы тела диаметр трубки подбирают по предполагаемой массе тела ребенка: • 2,5–3 мм — масса <1000 г;\n• 3–3,5 мм — масса 1000–2000 г;\n• 3,5 мм — масса 2000–3500 г;\n• 4 мм — масса >3500 г.",
+      "source_file": "Реанимация новорожденных__095211.docx",
       "department_sort_order": 10,
-      "ingest_sequence": 198,
+      "ingest_sequence": 10,
       "list_sort_tail": true
     },
     {
-      "id": 199,
-      "stable_key": "e76e0109364fb0664e9510a5d3c7e84a298dd09613bc1365e60f8fc601a2caa1",
+      "id": 336,
+      "stable_key": "1ca0c1354871c206b7914546a80c06dfe77a97003bd544049207a038dfe7edfc",
       "department_id": 15,
       "display_code": null,
-      "title": "ЭТАП в",
+      "title": "в) Непрямой массаж сердца",
       "conditions_note": null,
       "branch_prompt": null,
       "mnn_hints": null,
       "is_emergency": false,
       "include_in_shock_coma": false,
-      "search_blob": "этап в  непрямой массаж сердца показание: чсс <60 на фоне адекватной ивл 30 секунд  ",
-      "source_file": "Реанимация новорожденных.docx",
+      "search_blob": "в) непрямой массаж сердца непрямой массаж сердца показан при чсс менее 60 уд./мин. на фоне адекватной ивл, проводимой 30 секунд, в соотношении с частотой ивл 3:1 — 90 компрессий и 30 вдохов в минуту. соотношение компрессия:ивл = 3:1 (90 компрессий и 30 вдохов в минуту).",
+      "source_file": "Реанимация новорожденных__095211.docx",
       "department_sort_order": 11,
-      "ingest_sequence": 199,
+      "ingest_sequence": 11,
       "list_sort_tail": true
     },
     {
-      "id": 200,
-      "stable_key": "e3f0025dd7ade32bcb9312b7e1a5f2cc6100954d7210ad3ad66d8b833a38ebf4",
+      "id": 337,
+      "stable_key": "b39f0da239a4e6b4c4ce886435640e9a0bbb68e4b235e652d3b8106957acd2af",
       "department_id": 15,
       "display_code": null,
-      "title": "Соотношение компрессия:ИВЛ",
+      "title": "Способы непрямого массажа сердца",
       "conditions_note": null,
       "branch_prompt": null,
       "mnn_hints": null,
       "is_emergency": false,
       "include_in_shock_coma": false,
-      "search_blob": "соотношение компрессия:ивл  3:1 90 компрессий / 30 вдохов в минуту  ",
-      "source_file": "Реанимация новорожденных.docx",
+      "search_blob": "способы непрямого массажа сердца непрямой массаж сердца может проводиться двумя разными способами: 1) с помощью двух рук: ладони обеих рук под спину новорожденного, подушечки больших пальцев на нижнюю треть грудины;\n2) с помощью одной руки: давление указательным и средним пальцами на нижнюю треть грудины.\n\nсжатие грудной клетки — примерно на 1/3 переднезаднего размера грудной клетки. отражением эффективности является пульс, пальпируемый на крупных сосудах во время массажа.\n\nважно:\n• пальцы на нижней трети грудины (несколько ниже линии, соединяющей соски);\n• при проведении массажа пальцы не должны отрываться от грудной клетки.",
+      "source_file": "Реанимация новорожденных__095211.docx",
       "department_sort_order": 12,
-      "ingest_sequence": 200,
+      "ingest_sequence": 12,
       "list_sort_tail": true
     },
     {
-      "id": 201,
-      "stable_key": "2e7b519186dac70dbdfcd61385468cde9efb3bd445f1d1abab7e16da2b19576f",
-      "department_id": 15,
-      "display_code": null,
-      "title": "Способы массажа",
-      "conditions_note": null,
-      "branch_prompt": null,
-      "mnn_hints": null,
-      "is_emergency": false,
-      "include_in_shock_coma": false,
-      "search_blob": "способы массажа  одной рукой указательный + средний пальцы на нижнюю треть грудины  ",
-      "source_file": "Реанимация новорожденных.docx",
-      "department_sort_order": 13,
-      "ingest_sequence": 201,
-      "list_sort_tail": true
-    },
-    {
-      "id": 202,
-      "stable_key": "21f4ac888b3434220539789c5478c8217a5e19fa552d0b4b50be640ebf7585c9",
-      "department_id": 15,
-      "display_code": null,
-      "title": "Глубина компрессии",
-      "conditions_note": null,
-      "branch_prompt": null,
-      "mnn_hints": null,
-      "is_emergency": false,
-      "include_in_shock_coma": false,
-      "search_blob": "глубина компрессии  1/3 переднезаднего размера грудной клетки пальцы не отрывать от грудины  ",
-      "source_file": "Реанимация новорожденных.docx",
-      "department_sort_order": 14,
-      "ingest_sequence": 202,
-      "list_sort_tail": true
-    },
-    {
-      "id": 203,
+      "id": 338,
       "stable_key": "68eab42cfe82ff4b929ce1f62c23c774fd9d8b140682feb346befbbe861b5cbf",
       "department_id": 15,
       "display_code": null,
@@ -5421,248 +5387,95 @@
       "mnn_hints": null,
       "is_emergency": false,
       "include_in_shock_coma": false,
-      "search_blob": "контроль чсс после начала массажа  прекратить массаж на 6 секунд, оценить чсс   ",
-      "source_file": "Реанимация новорожденных.docx",
+      "search_blob": "контроль чсс после начала массажа после начала непрямого массажа через 30 секунд следует оценить чсс. для этого непрямой массаж сердца прекращают на 6 секунд и оценивают чсс: • чсс выше 60 уд./мин. — прекратить непрямой массаж сердца и продолжить ивл до восстановления адекватного самостоятельного дыхания;\n• чсс ниже 60 уд./мин. — продолжить непрямой массаж сердца на фоне ивл, убедиться в правильности работы оборудования и начать лекарственную терапию.",
+      "source_file": "Реанимация новорожденных__095211.docx",
+      "department_sort_order": 13,
+      "ingest_sequence": 13,
+      "list_sort_tail": true
+    },
+    {
+      "id": 339,
+      "stable_key": "b36d981949ee75d3dbe7dcf5874ad6987f6ca636577b60bc328a0ed43cde3c9c",
+      "department_id": 15,
+      "display_code": null,
+      "title": "г) Введение медикаментов",
+      "conditions_note": null,
+      "branch_prompt": null,
+      "mnn_hints": null,
+      "is_emergency": false,
+      "include_in_shock_coma": false,
+      "search_blob": "г) введение медикаментов для проведения лекарственной терапии проводится катетеризация пупочной вены. если нет возможности провести катетеризацию пупочной вены, адреналин может быть введен эндотрахеально. однако следует перейти к внутривенному способу введения адреналина, как только венозный доступ будет обеспечен. предпочтительный доступ — катетеризация пупочной вены; эндотрахеально — только до обеспечения венозного доступа.",
+      "source_file": "Реанимация новорожденных__095211.docx",
+      "department_sort_order": 14,
+      "ingest_sequence": 14,
+      "list_sort_tail": true
+    },
+    {
+      "id": 340,
+      "stable_key": "d5ea93a141d2190ddface4f5bc96aa66165140203a23f2302d9570853eefc9e0",
+      "department_id": 15,
+      "display_code": null,
+      "title": "Адреналин",
+      "conditions_note": null,
+      "branch_prompt": null,
+      "mnn_hints": null,
+      "is_emergency": false,
+      "include_in_shock_coma": false,
+      "search_blob": "адреналин показания: чсс ниже 60 уд./мин. после 30 секунд непрямого массажа сердца на фоне адекватной ивл.\n\nконцентрация вводимого раствора — 1:10000 (0,1 мг/мл). подготовка раствора: 0,1 мл из ампулы с адреналином следует развести в 1 мл физиологического раствора.\n\nрекомендуемая доза для внутривенного введения 0,1–0,3 мл/кг (0,01–0,03 мг/кг) приготовленного раствора. при эндотрахеальном введении адреналина рекомендуемая доза в 3 раза выше — 0,3–1 мл/кг (0,03–0,1 мг/кг). если через 30 секунд чсс восстанавливается и:\n• превышает 60 уд./мин. — другие медикаменты вводить не следует, непрямой массаж сердца следует прекратить, а ивл продолжить до восстановления адекватного самостоятельного дыхания;\n• остается ниже 60 уд./мин. — продолжить непрямой массаж сердца на фоне ивл и:\n  – повторить введение адреналина через каждые 5 минут;\n  – при признаках острой кровопотери или гиповолемии, отсутствии или недостаточном эффекте от реанимации ввести изотонический раствор натрия хлорида 10 мл/кг в вену пуповины, струйно, медленно, не быстрее чем за 5 минут. при сохраняющихся признаках гиповолемии можно повторить введение в той же дозе.",
+      "source_file": "Реанимация новорожденных__095211.docx",
       "department_sort_order": 15,
-      "ingest_sequence": 203,
+      "ingest_sequence": 15,
       "list_sort_tail": true
     },
     {
-      "id": 204,
-      "stable_key": "79c4c0b674515747669aa177c3a5676de7c99c4ed1fda121d14f2403e7a5ac6d",
+      "id": 341,
+      "stable_key": "6552c4ad40ee265274aef3deeacd64e6829b2a06b6089fc3aaac47b66945ec7b",
       "department_id": 15,
       "display_code": null,
-      "title": "ЧСС после массажа >60",
+      "title": "Гидрокарбонат натрия 4%",
       "conditions_note": null,
       "branch_prompt": null,
       "mnn_hints": null,
       "is_emergency": false,
       "include_in_shock_coma": false,
-      "search_blob": "чсс после массажа >60  прекратить массаж продолжить ивл  ",
-      "source_file": "Реанимация новорожденных.docx",
+      "search_blob": "гидрокарбонат натрия 4% раствор гидрокарбоната натрия концентрацией 4% (0,5 мэкв/мл).\n\nпоказания:\n• тяжелый метаболический ацидоз (ph <7,0, be > −12);\n• отсутствие эффекта от непрямого массажа сердца, введения адреналина и восполнения оцк на фоне адекватной ивл (предполагаемый тяжелый метаболический ацидоз, угнетающий сердечную деятельность и дыхание). доза: 2 мэкв/кг или 4 мл/кг 4% раствора.\nспособ введения: в вену пуповины со скоростью 2 мл/кг/мин (не быстрее чем за 2 минуты).",
+      "source_file": "Реанимация новорожденных__095211.docx",
       "department_sort_order": 16,
-      "ingest_sequence": 204,
+      "ingest_sequence": 16,
       "list_sort_tail": true
     },
     {
-      "id": 205,
-      "stable_key": "d67267623a7f58aeb73715eee4d0319d66d2aaa404bdab69b6f59eaa58ff0833",
+      "id": 342,
+      "stable_key": "139e6a9b2dd22fa90eb0c1781a87ca7b3d6101e18168a61545785975ad85512f",
       "department_id": 15,
       "display_code": null,
-      "title": "ЧСС после массажа <60",
+      "title": "Окончание реанимационных мероприятий",
       "conditions_note": null,
       "branch_prompt": null,
       "mnn_hints": null,
       "is_emergency": false,
       "include_in_shock_coma": false,
-      "search_blob": "чсс после массажа <60  продолжить массаж + ивл, проверить оборудование начать лекарственную терапию  ",
-      "source_file": "Реанимация новорожденных.docx",
+      "search_blob": "окончание реанимационных мероприятий если через 10 минут от начала проведения реанимационных мероприятий в полном объеме у ребенка отсутствует сердцебиение, реанимационные мероприятия следует прекратить.",
+      "source_file": "Реанимация новорожденных__095211.docx",
       "department_sort_order": 17,
-      "ingest_sequence": 205,
+      "ingest_sequence": 17,
       "list_sort_tail": true
     },
     {
-      "id": 206,
-      "stable_key": "c11069389df665671c0b5684e9110aa5830fed29707a6af533bcc47d8f9eb5d1",
-      "department_id": 15,
-      "display_code": null,
-      "title": "ЭТАП г — Доступ",
-      "conditions_note": null,
-      "branch_prompt": null,
-      "mnn_hints": null,
-      "is_emergency": false,
-      "include_in_shock_coma": false,
-      "search_blob": "этап г — доступ  катетеризация пупочной вены при невозможности — адреналин эндотрахеально  ",
-      "source_file": "Реанимация новорожденных.docx",
-      "department_sort_order": 18,
-      "ingest_sequence": 206,
-      "list_sort_tail": true
-    },
-    {
-      "id": 207,
-      "stable_key": "e5f438b85b1ba3acd24a83072e95d919a8853be67aa50f0e63a2ff49ca9d4ddd",
-      "department_id": 15,
-      "display_code": null,
-      "title": "Адреналин — показание",
-      "conditions_note": null,
-      "branch_prompt": null,
-      "mnn_hints": null,
-      "is_emergency": false,
-      "include_in_shock_coma": false,
-      "search_blob": "адреналин — показание  чсс <60 после 30 сек массажа + адекватная ивл   ",
-      "source_file": "Реанимация новорожденных.docx",
-      "department_sort_order": 19,
-      "ingest_sequence": 207,
-      "list_sort_tail": true
-    },
-    {
-      "id": 208,
-      "stable_key": "53fc287c83ca8558dde3b9da234522452fb11c82ac2437520fa9be75bc8d934d",
-      "department_id": 15,
-      "display_code": null,
-      "title": "Адреналин — концентрация",
-      "conditions_note": null,
-      "branch_prompt": null,
-      "mnn_hints": null,
-      "is_emergency": false,
-      "include_in_shock_coma": false,
-      "search_blob": "адреналин — концентрация  1:10000 (0,1 мг/мл) приготовление: 0,1 мл адреналина + 1 мл физраствора  ",
-      "source_file": "Реанимация новорожденных.docx",
-      "department_sort_order": 20,
-      "ingest_sequence": 208,
-      "list_sort_tail": true
-    },
-    {
-      "id": 209,
-      "stable_key": "4c30cd41c97dfd0decb2865bd00d26e7df8b689a3d07246b31b649c431dac06c",
-      "department_id": 15,
-      "display_code": null,
-      "title": "Адреналин в/в",
-      "conditions_note": null,
-      "branch_prompt": null,
-      "mnn_hints": null,
-      "is_emergency": false,
-      "include_in_shock_coma": false,
-      "search_blob": "адреналин в/в  0,1-0,3 мл/кг = 0,01-0,03 мг/кг  ",
-      "source_file": "Реанимация новорожденных.docx",
-      "department_sort_order": 21,
-      "ingest_sequence": 209,
-      "list_sort_tail": true
-    },
-    {
-      "id": 210,
-      "stable_key": "57ddf3e1f2529f57ada1601a754427273de4e44d38792766c79d180b1c89f1fd",
-      "department_id": 15,
-      "display_code": null,
-      "title": "Адреналин эндотрахеально",
-      "conditions_note": null,
-      "branch_prompt": null,
-      "mnn_hints": null,
-      "is_emergency": false,
-      "include_in_shock_coma": false,
-      "search_blob": "адреналин эндотрахеально  0,3-1 мл/кг = 0,03-0,1 мг/кг (доза в 3 раза выше)  ",
-      "source_file": "Реанимация новорожденных.docx",
-      "department_sort_order": 22,
-      "ingest_sequence": 210,
-      "list_sort_tail": true
-    },
-    {
-      "id": 211,
-      "stable_key": "06b8f90d5170e8dbc6f76c235d667bc33f189c3d25309ff2b46d8e4eefd0611d",
-      "department_id": 15,
-      "display_code": null,
-      "title": "Адреналин — оценка через 30 сек",
-      "conditions_note": null,
-      "branch_prompt": null,
-      "mnn_hints": null,
-      "is_emergency": false,
-      "include_in_shock_coma": false,
-      "search_blob": "адреналин — оценка через 30 сек  чсс <60 повторять адреналин каждые 5 минут  ",
-      "source_file": "Реанимация новорожденных.docx",
-      "department_sort_order": 23,
-      "ingest_sequence": 211,
-      "list_sort_tail": true
-    },
-    {
-      "id": 212,
-      "stable_key": "dd6c7260593ac9a21dc229964908df4e83d03012dc551ba0ba7de9015a4bee0d",
-      "department_id": 15,
-      "display_code": null,
-      "title": "Гиповолемия",
-      "conditions_note": null,
-      "branch_prompt": null,
-      "mnn_hints": null,
-      "is_emergency": false,
-      "include_in_shock_coma": false,
-      "search_blob": "гиповолемия  изотонический раствор nacl 10 мл/кг в пупочную вену, медленно струйно (не быстрее 5 минут), при необходимости повторить  ",
-      "source_file": "Реанимация новорожденных.docx",
-      "department_sort_order": 24,
-      "ingest_sequence": 212,
-      "list_sort_tail": true
-    },
-    {
-      "id": 213,
-      "stable_key": "1920151cd2a6fe0ac2d1a5812a334e1fffec193e009920ee6b452b6c82e8b8f9",
-      "department_id": 15,
-      "display_code": null,
-      "title": "Гидрокарбонат натрия 4% — показания",
-      "conditions_note": null,
-      "branch_prompt": null,
-      "mnn_hints": null,
-      "is_emergency": false,
-      "include_in_shock_coma": false,
-      "search_blob": "гидрокарбонат натрия 4% — показания  ph <7,0, be > -12 или нет эффекта от массажа+адреналин+восполнение оцк на фоне адекватной ивл тяжелый метаболический ацидоз  ",
-      "source_file": "Реанимация новорожденных.docx",
-      "department_sort_order": 25,
-      "ingest_sequence": 213,
-      "list_sort_tail": true
-    },
-    {
-      "id": 214,
-      "stable_key": "3b5d8d2b783680a4bd40b2786b6b59007b43752aa6f13691f9718fffe7ceba6d",
-      "department_id": 15,
-      "display_code": null,
-      "title": "Гидрокарбонат натрия — доза",
-      "conditions_note": null,
-      "branch_prompt": null,
-      "mnn_hints": null,
-      "is_emergency": false,
-      "include_in_shock_coma": false,
-      "search_blob": "гидрокарбонат натрия — доза  2 мэкв/кг = 4 мл/кг 4% раствора в пупочную вену  ",
-      "source_file": "Реанимация новорожденных.docx",
-      "department_sort_order": 26,
-      "ingest_sequence": 214,
-      "list_sort_tail": true
-    },
-    {
-      "id": 215,
-      "stable_key": "909468d73caaf05be0afad86342b0ae8ab9fabd8b04e618ee059403f30d10b9c",
-      "department_id": 15,
-      "display_code": null,
-      "title": "Гидрокарбонат натрия — скорость",
-      "conditions_note": null,
-      "branch_prompt": null,
-      "mnn_hints": null,
-      "is_emergency": false,
-      "include_in_shock_coma": false,
-      "search_blob": "гидрокарбонат натрия — скорость  2 мл/кг/мин не быстрее чем за 2 минуты  ",
-      "source_file": "Реанимация новорожденных.docx",
-      "department_sort_order": 27,
-      "ingest_sequence": 215,
-      "list_sort_tail": true
-    },
-    {
-      "id": 216,
-      "stable_key": "9d01bbfe2f153226f54fdb7147d74f4f27ae4dc906a2ed45b61e57eb4ff92af8",
-      "department_id": 15,
-      "display_code": null,
-      "title": "ОКОНЧАНИЕ РЕАНИМАЦИИ",
-      "conditions_note": null,
-      "branch_prompt": null,
-      "mnn_hints": null,
-      "is_emergency": false,
-      "include_in_shock_coma": false,
-      "search_blob": "окончание реанимации  отсутствие сердцебиения через 10 минут от начала реанимации в полном объеме  ",
-      "source_file": "Реанимация новорожденных.docx",
-      "department_sort_order": 28,
-      "ingest_sequence": 216,
-      "list_sort_tail": true
-    },
-    {
-      "id": 217,
+      "id": 343,
       "stable_key": "7476143e7569aaa0e912febe1295baf18890eb137a65ad146aad8fc963aeb48b",
       "department_id": 15,
       "display_code": null,
-      "title": "ТРАНСПОРТИРОВКА",
+      "title": "Транспортировка",
       "conditions_note": null,
       "branch_prompt": null,
       "mnn_hints": null,
       "is_emergency": false,
       "include_in_shock_coma": false,
-      "search_blob": "транспортировка  после стабилизации в кувезе, при необходимости — продолжение ивл и инфузии препаратов  ",
-      "source_file": "Реанимация новорожденных.docx",
-      "department_sort_order": 29,
-      "ingest_sequence": 217,
+      "search_blob": "транспортировка после стабилизации состояния ребенка, в случае необходимости транспортировки, она должна осуществляться в кувезе, при необходимости — на фоне продолжающейся ивл и инфузии лекарственных препаратов.",
+      "source_file": "Реанимация новорожденных__095211.docx",
+      "department_sort_order": 18,
+      "ingest_sequence": 18,
       "list_sort_tail": true
     }
   ],
@@ -10982,180 +10795,6 @@
       "body": "Перед интубацией: Атропин 0,01 - 0,02 мг/кг в/венно (по показаниям), Вводная анестезия комбинацией препаратов (производится при уровне сознания > 4 баллов по шкале комы Глазго): Диазепам 10 - 20 мг в/венно и Фентанил 0,05 - 0,1 мг в/венно, или - Тиопентал натрия 100 - 500 мг в/венно (для бригад ГАР) или - Пропофол 1,5 - 2 мг/кг в/венно (для бригад ГАР) Санация верхних дыхательных путей, Интубация трахеи или применение ларингеальной трубки, ИВЛ/ВВЛ, ЭКГ - мониторинг"
     },
     {
-      "id": 405,
-      "diagnosis_id": 189,
-      "subcondition_id": null,
-      "body": "Признаки живорождения (достаточно одного)"
-    },
-    {
-      "id": 406,
-      "diagnosis_id": 190,
-      "subcondition_id": null,
-      "body": "Начальные мероприятия"
-    },
-    {
-      "id": 407,
-      "diagnosis_id": 191,
-      "subcondition_id": null,
-      "body": "Правила санации"
-    },
-    {
-      "id": 408,
-      "diagnosis_id": 192,
-      "subcondition_id": null,
-      "body": "Меконий + сниженный тонус + неэффективное/отсутствующее дыхание"
-    },
-    {
-      "id": 409,
-      "diagnosis_id": 193,
-      "subcondition_id": null,
-      "body": "ИВЛ через маску (начальный этап)"
-    },
-    {
-      "id": 410,
-      "diagnosis_id": 194,
-      "subcondition_id": null,
-      "body": "Действие"
-    },
-    {
-      "id": 411,
-      "diagnosis_id": 195,
-      "subcondition_id": null,
-      "body": "ИВЛ эффективна"
-    },
-    {
-      "id": 412,
-      "diagnosis_id": 196,
-      "subcondition_id": null,
-      "body": "проверить маску, разогнуть голову, увеличить давление, аспирация → еще 30 сек"
-    },
-    {
-      "id": 413,
-      "diagnosis_id": 197,
-      "subcondition_id": null,
-      "body": "подозрение на диафрагмальную грыжу"
-    },
-    {
-      "id": 414,
-      "diagnosis_id": 198,
-      "subcondition_id": null,
-      "body": "диаметр 4 мм"
-    },
-    {
-      "id": 415,
-      "diagnosis_id": 199,
-      "subcondition_id": null,
-      "body": "Непрямой массаж сердца"
-    },
-    {
-      "id": 416,
-      "diagnosis_id": 200,
-      "subcondition_id": null,
-      "body": "3:1"
-    },
-    {
-      "id": 417,
-      "diagnosis_id": 201,
-      "subcondition_id": null,
-      "body": "одной рукой"
-    },
-    {
-      "id": 418,
-      "diagnosis_id": 202,
-      "subcondition_id": null,
-      "body": "1/3 переднезаднего размера грудной клетки"
-    },
-    {
-      "id": 419,
-      "diagnosis_id": 203,
-      "subcondition_id": null,
-      "body": "прекратить массаж на 6 секунд, оценить ЧСС"
-    },
-    {
-      "id": 420,
-      "diagnosis_id": 204,
-      "subcondition_id": null,
-      "body": "прекратить массаж"
-    },
-    {
-      "id": 421,
-      "diagnosis_id": 205,
-      "subcondition_id": null,
-      "body": "продолжить массаж + ИВЛ, проверить оборудование"
-    },
-    {
-      "id": 422,
-      "diagnosis_id": 206,
-      "subcondition_id": null,
-      "body": "катетеризация пупочной вены"
-    },
-    {
-      "id": 423,
-      "diagnosis_id": 207,
-      "subcondition_id": null,
-      "body": "ЧСС <60 после 30 сек массажа + адекватная ИВЛ"
-    },
-    {
-      "id": 424,
-      "diagnosis_id": 208,
-      "subcondition_id": null,
-      "body": "1:10000 (0,1 мг/мл)"
-    },
-    {
-      "id": 425,
-      "diagnosis_id": 209,
-      "subcondition_id": null,
-      "body": "0,1-0,3 мл/кг"
-    },
-    {
-      "id": 426,
-      "diagnosis_id": 210,
-      "subcondition_id": null,
-      "body": "0,3-1 мл/кг"
-    },
-    {
-      "id": 427,
-      "diagnosis_id": 211,
-      "subcondition_id": null,
-      "body": "ЧСС <60"
-    },
-    {
-      "id": 428,
-      "diagnosis_id": 212,
-      "subcondition_id": null,
-      "body": "изотонический раствор NaCl"
-    },
-    {
-      "id": 429,
-      "diagnosis_id": 213,
-      "subcondition_id": null,
-      "body": "pH <7,0, BE > -12 ИЛИ нет эффекта от массажа+адреналин+восполнение ОЦК на фоне адекватной ИВЛ"
-    },
-    {
-      "id": 430,
-      "diagnosis_id": 214,
-      "subcondition_id": null,
-      "body": "2 мэкв/кг = 4 мл/кг 4% раствора"
-    },
-    {
-      "id": 431,
-      "diagnosis_id": 215,
-      "subcondition_id": null,
-      "body": "2 мл/кг/мин"
-    },
-    {
-      "id": 432,
-      "diagnosis_id": 216,
-      "subcondition_id": null,
-      "body": "отсутствие сердцебиения"
-    },
-    {
-      "id": 433,
-      "diagnosis_id": 217,
-      "subcondition_id": null,
-      "body": "после стабилизации"
-    },
-    {
       "id": 434,
       "diagnosis_id": 218,
       "subcondition_id": null,
@@ -12672,6 +12311,114 @@
       "diagnosis_id": 325,
       "subcondition_id": null,
       "body": "Пульсоксиметрия, Оксигенотерапия при SpO2 ≤94%, Применение небулайзера: Будесонид 1 мг в разведении Натрия хлорида 0,9% до 2мл ингаляция через небулайзер, при необходимости повторить ингаляцию через 30 минут, При отсутствии эффекта: Дексаметазон 0,15-0,6 мг/кг или преднизолон 2-5 мг/кг, Применение небулайзера: Будесонид 2 мг или 1 мг дважды через 30 минут, Катетеризация вены или внутрикостный доступ, Преднизолон 3-5 мг/кг или Дексаметазон 0,6 мг/кг в/в, Натрия хлорид 0,9 %-10-20 мл/кг в/венно капельно, Преднизолон 5-10 мг/кг или Дексаметазон 0,6-1,2 мг/кг в/в, Интубация (трубка на один размер меньше возрастной нормы), попытка интубации должна быть однократной, применение ларингиальной маски не показано/ или коникотомия, Перед интубацией: Атропин 0,01-0,02 мг/кг в/венно (по показаниям), Вводная анестезия комбинацией препаратов (производится при уровне сознания >8 баллов по шкале комы Глазго): Диазепам 0,3-0,5 мг/кг в/в и Кетамин 1-2 мг/кг в/венно, или Пропофол 2-4 мг/кг в/в (для бригад АР)"
+    },
+    {
+      "id": 687,
+      "diagnosis_id": 326,
+      "subcondition_id": null,
+      "body": "На основании письма МЗ и СР РФ от 21 апреля 2010 г. N 15-4/10/2-3204."
+    },
+    {
+      "id": 688,
+      "diagnosis_id": 327,
+      "subcondition_id": null,
+      "body": "Первичные реанимационные мероприятия осуществляются при наличии у ребенка показаний, при условии хотя бы одного признака живорождения:"
+    },
+    {
+      "id": 689,
+      "diagnosis_id": 328,
+      "subcondition_id": null,
+      "body": "Основные этапы реанимации новорождённого:"
+    },
+    {
+      "id": 690,
+      "diagnosis_id": 329,
+      "subcondition_id": null,
+      "body": "Начальные мероприятия занимают 20–30 секунд и включают в себя:"
+    },
+    {
+      "id": 691,
+      "diagnosis_id": 330,
+      "subcondition_id": null,
+      "body": "Санировать следует содержимое ротовой полости с помощью баллончика или специального катетера для санации верхних дыхательных путей, подключенного через тройник к аспиратору."
+    },
+    {
+      "id": 692,
+      "diagnosis_id": 331,
+      "subcondition_id": null,
+      "body": "Наличие в околоплодных водах мекония, сниженного мышечного тонуса, неэффективного или ослабленного самостоятельного дыхания — показания к интубации трахеи с последующей санацией через эндотрахеальную трубку до полной аспирации содержимого трахеи."
+    },
+    {
+      "id": 693,
+      "diagnosis_id": 332,
+      "subcondition_id": null,
+      "body": "В остальных случаях первичной реанимации новорожденных ИВЛ следует начинать через лицевую маску с саморасправляющимся мешком объемом не более 240 мл. Для проведения ИВЛ воздушно-кислородной смесью необходимо подключить мешок к источнику кислорода и установить скорость потока 8 л/мин. Такая скорость позволяет добиться концентрации в дыхательной смеси около 40%. Начальный этап ИВЛ маской проводится в течение 30 секунд. Если масочная ИВЛ затягивается более чем на 3–5 минут, следует установить желудочный зонд. Для функционирования поточнорасправляющегося мешка необходимо подключение его к источнику газа и установление скорости потока 8 л/мин."
+    },
+    {
+      "id": 694,
+      "diagnosis_id": 333,
+      "subcondition_id": null,
+      "body": "Немедленная интубация трахеи показана:"
+    },
+    {
+      "id": 695,
+      "diagnosis_id": 334,
+      "subcondition_id": null,
+      "body": "Через 30 секунд после начала ИВЛ следует оценить ЧСС:"
+    },
+    {
+      "id": 696,
+      "diagnosis_id": 335,
+      "subcondition_id": null,
+      "body": "Диаметр трубки подбирают по предполагаемой массе тела ребенка:"
+    },
+    {
+      "id": 697,
+      "diagnosis_id": 336,
+      "subcondition_id": null,
+      "body": "Непрямой массаж сердца показан при ЧСС менее 60 уд./мин. на фоне адекватной ИВЛ, проводимой 30 секунд, в соотношении с частотой ИВЛ 3:1 — 90 компрессий и 30 вдохов в минуту."
+    },
+    {
+      "id": 698,
+      "diagnosis_id": 337,
+      "subcondition_id": null,
+      "body": "Непрямой массаж сердца может проводиться двумя разными способами:"
+    },
+    {
+      "id": 699,
+      "diagnosis_id": 338,
+      "subcondition_id": null,
+      "body": "После начала непрямого массажа через 30 секунд следует оценить ЧСС. Для этого непрямой массаж сердца прекращают на 6 секунд и оценивают ЧСС:"
+    },
+    {
+      "id": 700,
+      "diagnosis_id": 339,
+      "subcondition_id": null,
+      "body": "Для проведения лекарственной терапии проводится катетеризация пупочной вены. Если нет возможности провести катетеризацию пупочной вены, адреналин может быть введен эндотрахеально. Однако следует перейти к внутривенному способу введения адреналина, как только венозный доступ будет обеспечен."
+    },
+    {
+      "id": 701,
+      "diagnosis_id": 340,
+      "subcondition_id": null,
+      "body": "Показания: ЧСС ниже 60 уд./мин. после 30 секунд непрямого массажа сердца на фоне адекватной ИВЛ.\n\nКонцентрация вводимого раствора — 1:10000 (0,1 мг/мл). Подготовка раствора: 0,1 мл из ампулы с адреналином следует развести в 1 мл физиологического раствора.\n\nРекомендуемая доза для внутривенного введения 0,1–0,3 мл/кг (0,01–0,03 мг/кг) приготовленного раствора. При эндотрахеальном введении адреналина рекомендуемая доза в 3 раза выше — 0,3–1 мл/кг (0,03–0,1 мг/кг)."
+    },
+    {
+      "id": 702,
+      "diagnosis_id": 341,
+      "subcondition_id": null,
+      "body": "Раствор гидрокарбоната натрия концентрацией 4% (0,5 мэкв/мл).\n\nПоказания:\n• тяжелый метаболический ацидоз (pH <7,0, BE > −12);\n• отсутствие эффекта от непрямого массажа сердца, введения адреналина и восполнения ОЦК на фоне адекватной ИВЛ (предполагаемый тяжелый метаболический ацидоз, угнетающий сердечную деятельность и дыхание)."
+    },
+    {
+      "id": 703,
+      "diagnosis_id": 342,
+      "subcondition_id": null,
+      "body": "Если через 10 минут от начала проведения реанимационных мероприятий в полном объеме у ребенка отсутствует сердцебиение, реанимационные мероприятия следует прекратить."
+    },
+    {
+      "id": 704,
+      "diagnosis_id": 343,
+      "subcondition_id": null,
+      "body": "После стабилизации состояния ребенка, в случае необходимости транспортировки, она должна осуществляться в кувезе, при необходимости — на фоне продолжающейся ИВЛ и инфузии лекарственных препаратов."
     }
   ],
   "tactics": [
@@ -15100,180 +14847,6 @@
       "body": ""
     },
     {
-      "id": 405,
-      "diagnosis_id": 189,
-      "subcondition_id": null,
-      "body": "1) самостоятельное дыхание; 2) сердцебиение (ЧСС); 3) пульсация пуповины; 4) произвольные движения мышц"
-    },
-    {
-      "id": 406,
-      "diagnosis_id": 190,
-      "subcondition_id": null,
-      "body": "20-30 секунд: поддержание температуры, положение на спине, тактильная стимуляция (обсушивание, похлопывание по стопам/спине не более 10-15 сек), обеспечение проходимости ДП"
-    },
-    {
-      "id": 407,
-      "diagnosis_id": 191,
-      "subcondition_id": null,
-      "body": "сначала рот → затем нос; разряжение ≤100 мм рт.ст., глубина ≤5 см, длительность ≤5 секунд"
-    },
-    {
-      "id": 408,
-      "diagnosis_id": 192,
-      "subcondition_id": null,
-      "body": "интубация → санация через эндотрахеальную трубку до полной аспирации"
-    },
-    {
-      "id": 409,
-      "diagnosis_id": 193,
-      "subcondition_id": null,
-      "body": "мешок ≤240 мл, скорость O2 8 л/мин (≈40% O2), длительность 30 сек, затем оценить ЧСС"
-    },
-    {
-      "id": 410,
-      "diagnosis_id": 194,
-      "subcondition_id": null,
-      "body": "установить желудочный зонд"
-    },
-    {
-      "id": 411,
-      "diagnosis_id": 195,
-      "subcondition_id": null,
-      "body": "продолжать ИВЛ до восстановления"
-    },
-    {
-      "id": 412,
-      "diagnosis_id": 196,
-      "subcondition_id": null,
-      "body": "если ЧСС <100 → интубация трахеи"
-    },
-    {
-      "id": 413,
-      "diagnosis_id": 197,
-      "subcondition_id": null,
-      "body": "интубировать сразу"
-    },
-    {
-      "id": 414,
-      "diagnosis_id": 198,
-      "subcondition_id": null,
-      "body": "масса >3500 г"
-    },
-    {
-      "id": 415,
-      "diagnosis_id": 199,
-      "subcondition_id": null,
-      "body": "показание: ЧСС <60 на фоне адекватной ИВЛ 30 секунд"
-    },
-    {
-      "id": 416,
-      "diagnosis_id": 200,
-      "subcondition_id": null,
-      "body": "90 компрессий / 30 вдохов в минуту"
-    },
-    {
-      "id": 417,
-      "diagnosis_id": 201,
-      "subcondition_id": null,
-      "body": "указательный + средний пальцы на нижнюю треть грудины"
-    },
-    {
-      "id": 418,
-      "diagnosis_id": 202,
-      "subcondition_id": null,
-      "body": "пальцы не отрывать от грудины"
-    },
-    {
-      "id": 419,
-      "diagnosis_id": 203,
-      "subcondition_id": null,
-      "body": ""
-    },
-    {
-      "id": 420,
-      "diagnosis_id": 204,
-      "subcondition_id": null,
-      "body": "продолжить ИВЛ"
-    },
-    {
-      "id": 421,
-      "diagnosis_id": 205,
-      "subcondition_id": null,
-      "body": "начать лекарственную терапию"
-    },
-    {
-      "id": 422,
-      "diagnosis_id": 206,
-      "subcondition_id": null,
-      "body": "при невозможности — адреналин эндотрахеально"
-    },
-    {
-      "id": 423,
-      "diagnosis_id": 207,
-      "subcondition_id": null,
-      "body": ""
-    },
-    {
-      "id": 424,
-      "diagnosis_id": 208,
-      "subcondition_id": null,
-      "body": "приготовление: 0,1 мл адреналина + 1 мл физраствора"
-    },
-    {
-      "id": 425,
-      "diagnosis_id": 209,
-      "subcondition_id": null,
-      "body": "= 0,01-0,03 мг/кг"
-    },
-    {
-      "id": 426,
-      "diagnosis_id": 210,
-      "subcondition_id": null,
-      "body": "= 0,03-0,1 мг/кг (доза в 3 раза выше)"
-    },
-    {
-      "id": 427,
-      "diagnosis_id": 211,
-      "subcondition_id": null,
-      "body": "повторять адреналин каждые 5 минут"
-    },
-    {
-      "id": 428,
-      "diagnosis_id": 212,
-      "subcondition_id": null,
-      "body": "10 мл/кг в пупочную вену, медленно струйно (не быстрее 5 минут), при необходимости повторить"
-    },
-    {
-      "id": 429,
-      "diagnosis_id": 213,
-      "subcondition_id": null,
-      "body": "тяжелый метаболический ацидоз"
-    },
-    {
-      "id": 430,
-      "diagnosis_id": 214,
-      "subcondition_id": null,
-      "body": "в пупочную вену"
-    },
-    {
-      "id": 431,
-      "diagnosis_id": 215,
-      "subcondition_id": null,
-      "body": "не быстрее чем за 2 минуты"
-    },
-    {
-      "id": 432,
-      "diagnosis_id": 216,
-      "subcondition_id": null,
-      "body": "через 10 минут от начала реанимации в полном объеме"
-    },
-    {
-      "id": 433,
-      "diagnosis_id": 217,
-      "subcondition_id": null,
-      "body": "в кувезе, при необходимости — продолжение ИВЛ и инфузии препаратов"
-    },
-    {
       "id": 434,
       "diagnosis_id": 218,
       "subcondition_id": null,
@@ -16790,6 +16363,114 @@
       "diagnosis_id": 325,
       "subcondition_id": null,
       "body": "Пульсоксиметрия, Оксигенотерапия при SpO2 ≤94%, Применение небулайзера: Будесонид 1 мг в разведении Натрия хлорида 0,9% до 2мл ингаляция через небулайзер, при необходимости повторить ингаляцию через 30 минут, При отсутствии эффекта: Дексаметазон 0,15-0,6 мг/кг или преднизолон 2-5 мг/кг, Применение небулайзера: Будесонид 2 мг или 1 мг дважды через 30 минут, Катетеризация вены или внутрикостный доступ, Преднизолон 3-5 мг/кг или Дексаметазон 0,6 мг/кг в/в, Натрия хлорид 0,9 %-10-20 мл/кг в/венно капельно, Преднизолон 5-10 мг/кг или Дексаметазон 0,6-1,2 мг/кг в/в, Интубация (трубка на один размер меньше возрастной нормы), попытка интубации должна быть однократной, применение ларингиальной маски не показано/ или коникотомия, Перед интубацией: Атропин 0,01-0,02 мг/кг в/венно (по показаниям), Вводная анестезия комбинацией препаратов (производится при уровне сознания >8 баллов по шкале комы Глазго): Диазепам 0,3-0,5 мг/кг в/в и Кетамин 1-2 мг/кг в/венно, или Пропофол 2-4 мг/кг в/в (для бригад АР)"
+    },
+    {
+      "id": 687,
+      "diagnosis_id": 326,
+      "subcondition_id": null,
+      "body": ""
+    },
+    {
+      "id": 688,
+      "diagnosis_id": 327,
+      "subcondition_id": null,
+      "body": "• самостоятельное дыхание;\n• сердцебиение (частота сердечных сокращений);\n• пульсация пуповины;\n• произвольные движения мышц."
+    },
+    {
+      "id": 689,
+      "diagnosis_id": 328,
+      "subcondition_id": null,
+      "body": "а) начальные мероприятия (восстановление проходимости дыхательных путей, тактильная стимуляция и др.);\nб) искусственная вентиляция легких через лицевую/ларингиальную маску, интубация трахеи;\nв) непрямой массаж сердца;\nг) введение медикаментов."
+    },
+    {
+      "id": 690,
+      "diagnosis_id": 329,
+      "subcondition_id": null,
+      "body": "• поддержание нормальной температуры тела новорожденного;\n• придание положения на спине;\n• тактильную стимуляцию: обсушивание ребенка, похлопывание новорожденного по стопам или поглаживание по спине не более 10–15 секунд;\n• обеспечение проходимости дыхательных путей."
+    },
+    {
+      "id": 691,
+      "diagnosis_id": 330,
+      "subcondition_id": null,
+      "body": "• разряжение не более 100 мм рт. ст. (0,1 атм.);\n• катетер вводится на глубину не более 5 см (во избежание брадикардии, ларинго- и бронхоспазма);\n• продолжительность санации не более 5 секунд;\n• сначала санировать рот, затем, при необходимости, носовые ходы."
+    },
+    {
+      "id": 692,
+      "diagnosis_id": 331,
+      "subcondition_id": null,
+      "body": "Интубация → санация через эндотрахеальную трубку до полной аспирации содержимого трахеи."
+    },
+    {
+      "id": 693,
+      "diagnosis_id": 332,
+      "subcondition_id": null,
+      "body": "Мешок ≤240 мл; поток O₂ 8 л/мин (≈40% O₂); оценка ЧСС через 30 секунд; при ИВЛ >3–5 мин — желудочный зонд."
+    },
+    {
+      "id": 694,
+      "diagnosis_id": 333,
+      "subcondition_id": null,
+      "body": "• детям, родившимся с примесью мекония в околоплодных водах с угнетенным самостоятельным дыханием или его отсутствием и сниженным мышечным тонусом;\n• детям, родившимся ранее 27 недели беременности;\n• детям с подозрением на диафрагмальную грыжу."
+    },
+    {
+      "id": 695,
+      "diagnosis_id": 334,
+      "subcondition_id": null,
+      "body": "• ЧСС более 100 уд./мин. — ИВЛ эффективна; продолжить ИВЛ до восстановления адекватного самостоятельного дыхания.\n• ЧСС менее 60 уд./мин. — выполнить интубацию трахеи и начать ИВЛ через интубационную трубку. При сохраняющейся брадикардии менее 60 уд./мин. следует приступить к непрямому массажу сердца на фоне ИВЛ через эндотрахеальную трубку со 100% концентрацией кислорода.\n• ЧСС больше 60, но менее 100 уд./мин.: проверить плотность прилегания маски, чуть больше разогнуть голову ребенка, увеличить давление на вдохе (если возможно), провести аспирацию из верхних дыхательных путей и продолжить ИВЛ еще 30 секунд, после чего оценить ЧСС. При сохраняющейся брадикардии <100 уд./мин. следует выполнить интубацию трахеи."
+    },
+    {
+      "id": 696,
+      "diagnosis_id": 335,
+      "subcondition_id": null,
+      "body": "• 2,5–3 мм — масса <1000 г;\n• 3–3,5 мм — масса 1000–2000 г;\n• 3,5 мм — масса 2000–3500 г;\n• 4 мм — масса >3500 г."
+    },
+    {
+      "id": 697,
+      "diagnosis_id": 336,
+      "subcondition_id": null,
+      "body": "Соотношение компрессия:ИВЛ = 3:1 (90 компрессий и 30 вдохов в минуту)."
+    },
+    {
+      "id": 698,
+      "diagnosis_id": 337,
+      "subcondition_id": null,
+      "body": "1) с помощью двух рук: ладони обеих рук под спину новорожденного, подушечки больших пальцев на нижнюю треть грудины;\n2) с помощью одной руки: давление указательным и средним пальцами на нижнюю треть грудины.\n\nСжатие грудной клетки — примерно на 1/3 переднезаднего размера грудной клетки. Отражением эффективности является пульс, пальпируемый на крупных сосудах во время массажа.\n\nВажно:\n• пальцы на нижней трети грудины (несколько ниже линии, соединяющей соски);\n• при проведении массажа пальцы не должны отрываться от грудной клетки."
+    },
+    {
+      "id": 699,
+      "diagnosis_id": 338,
+      "subcondition_id": null,
+      "body": "• ЧСС выше 60 уд./мин. — прекратить непрямой массаж сердца и продолжить ИВЛ до восстановления адекватного самостоятельного дыхания;\n• ЧСС ниже 60 уд./мин. — продолжить непрямой массаж сердца на фоне ИВЛ, убедиться в правильности работы оборудования и начать лекарственную терапию."
+    },
+    {
+      "id": 700,
+      "diagnosis_id": 339,
+      "subcondition_id": null,
+      "body": "Предпочтительный доступ — катетеризация пупочной вены; эндотрахеально — только до обеспечения венозного доступа."
+    },
+    {
+      "id": 701,
+      "diagnosis_id": 340,
+      "subcondition_id": null,
+      "body": "Если через 30 секунд ЧСС восстанавливается и:\n• превышает 60 уд./мин. — другие медикаменты вводить не следует, непрямой массаж сердца следует прекратить, а ИВЛ продолжить до восстановления адекватного самостоятельного дыхания;\n• остается ниже 60 уд./мин. — продолжить непрямой массаж сердца на фоне ИВЛ и:\n  – повторить введение адреналина через каждые 5 минут;\n  – при признаках острой кровопотери или гиповолемии, отсутствии или недостаточном эффекте от реанимации ввести изотонический раствор натрия хлорида 10 мл/кг в вену пуповины, струйно, медленно, не быстрее чем за 5 минут. При сохраняющихся признаках гиповолемии можно повторить введение в той же дозе."
+    },
+    {
+      "id": 702,
+      "diagnosis_id": 341,
+      "subcondition_id": null,
+      "body": "Доза: 2 мэкв/кг или 4 мл/кг 4% раствора.\nСпособ введения: в вену пуповины со скоростью 2 мл/кг/мин (не быстрее чем за 2 минуты)."
+    },
+    {
+      "id": 703,
+      "diagnosis_id": 342,
+      "subcondition_id": null,
+      "body": ""
+    },
+    {
+      "id": 704,
+      "diagnosis_id": 343,
+      "subcondition_id": null,
+      "body": ""
     }
   ],
   "medications": []

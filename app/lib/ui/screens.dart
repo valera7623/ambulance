@@ -422,17 +422,114 @@ class _ContinuousScreenState extends State<ContinuousScreen> {
       appBar: AppBar(title: Text(_department?.title ?? 'Раздел')),
       body: _cards.isEmpty
           ? const Center(child: Text('В этом разделе пока нет протоколов'))
-          : ListView.separated(
-              padding: const EdgeInsets.only(bottom: 24),
-              itemCount: _cards.length,
-              separatorBuilder: (_, __) => const Divider(thickness: 2),
+          : ListView.builder(
+              padding: const EdgeInsets.fromLTRB(20, 8, 20, 32),
+              itemCount: _cards.length + 1,
               itemBuilder: (context, index) {
-                return SizedBox(
-                  height: 420,
-                  child: CardBody(card: _cards[index]),
+                if (index == _cards.length) {
+                  return Padding(
+                    padding: const EdgeInsets.only(top: 16),
+                    child: Text(
+                      kDisclaimer,
+                      style: Theme.of(context).textTheme.bodySmall,
+                    ),
+                  );
+                }
+                final card = _cards[index];
+                return Padding(
+                  padding: EdgeInsets.only(top: index == 0 ? 0 : 20),
+                  child: ContinuousSection(card: card),
                 );
               },
             ),
+    );
+  }
+}
+
+class ContinuousSection extends StatelessWidget {
+  const ContinuousSection({required this.card, super.key});
+
+  final CardContent card;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final blocks = <Widget>[
+      Text(
+        card.code == null ? card.title : '${card.title}  ${card.code}',
+        style: theme.textTheme.titleLarge,
+      ),
+    ];
+    if (card.conditionBody != null) {
+      blocks
+        ..add(const SizedBox(height: 8))
+        ..add(Text(card.conditionBody!, style: theme.textTheme.bodyLarge));
+    }
+    if (card.care.trim().isNotEmpty) {
+      blocks
+        ..add(const SizedBox(height: 12))
+        ..add(
+          Text(
+            card.careLabel,
+            style: theme.textTheme.titleSmall?.copyWith(
+              color: theme.colorScheme.primary,
+              fontWeight: FontWeight.w800,
+            ),
+          ),
+        )
+        ..add(const SizedBox(height: 4))
+        ..add(_ContinuousProse(text: card.care));
+    }
+    if (card.tactic.trim().isNotEmpty) {
+      blocks
+        ..add(const SizedBox(height: 12))
+        ..add(
+          Text(
+            card.tacticLabel,
+            style: theme.textTheme.titleSmall?.copyWith(
+              color: theme.colorScheme.primary,
+              fontWeight: FontWeight.w800,
+            ),
+          ),
+        )
+        ..add(const SizedBox(height: 4))
+        ..add(_ContinuousProse(text: card.tactic));
+    }
+    blocks
+      ..add(const SizedBox(height: 16))
+      ..add(const Divider(thickness: 1));
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: blocks,
+    );
+  }
+}
+
+class _ContinuousProse extends StatelessWidget {
+  const _ContinuousProse({required this.text});
+
+  final String text;
+
+  @override
+  Widget build(BuildContext context) {
+    final style = Theme.of(context).textTheme.bodyLarge;
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        for (final line in text.split('\n'))
+          if (line.trim().isEmpty)
+            const SizedBox(height: 8)
+          else
+            Padding(
+              padding: const EdgeInsets.only(bottom: 4),
+              child: Text(
+                line.trim(),
+                style: emphasizeLine(line)
+                    ? style?.copyWith(fontWeight: FontWeight.w700)
+                    : style,
+              ),
+            ),
+      ],
     );
   }
 }
