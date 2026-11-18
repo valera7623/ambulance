@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Клинические рекомендации для СМП</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink: #062033;
+      --brand: #0b3a5b;
+      --mist: #d7e6ef;
+      --foam: #f3f8fb;
+      --accent: #1f8a70;
+      --accent-deep: #146652;
+      --line: rgba(11, 58, 91, 0.14);
+    }
+
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: Manrope, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(1200px 700px at 12% -10%, #b9d7e8 0%, transparent 55%),
+        radial-gradient(900px 600px at 100% 0%, #9fcdb8 0%, transparent 45%),
+        linear-gradient(160deg, #eef5f9 0%, #d9e8f1 48%, #cfe0ea 100%);
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(11, 58, 91, 0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(11, 58, 91, 0.04) 1px, transparent 1px);
+      background-size: 48px 48px;
+      mask-image: radial-gradient(circle at 50% 20%, #000 20%, transparent 75%);
+      pointer-events: none;
+      animation: gridDrift 18s linear infinite;
+    }
+
+    @keyframes gridDrift {
+      from { transform: translateY(0); }
+      to { transform: translateY(48px); }
+    }
+
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(18px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes softPulse {
+      0%, 100% { box-shadow: 0 14px 34px rgba(20, 102, 82, 0.28); }
+      50% { box-shadow: 0 18px 42px rgba(20, 102, 82, 0.4); }
+    }
+
+    .shell {
+      min-height: 100%;
+      display: grid;
+      place-items: center;
+      padding: 32px 20px 48px;
+    }
+
+    .stage {
+      width: min(560px, 100%);
+      text-align: center;
+      animation: rise 0.7s ease both;
+    }
+
+    .brand {
+      margin: 0;
+      color: var(--brand);
+      font-family: "Source Serif 4", Georgia, serif;
+      font-size: clamp(2rem, 7vw, 3.1rem);
+      font-weight: 700;
+      line-height: 1.12;
+      letter-spacing: -0.02em;
+      animation: rise 0.8s ease 0.05s both;
+    }
+
+    .lead {
+      margin: 18px auto 0;
+      max-width: 34ch;
+      color: rgba(6, 32, 51, 0.78);
+      font-size: 1.05rem;
+      line-height: 1.5;
+      font-weight: 500;
+      animation: rise 0.8s ease 0.12s both;
+    }
+
+    .actions {
+      margin-top: 28px;
+      display: grid;
+      gap: 22px;
+      justify-items: center;
+      animation: rise 0.8s ease 0.18s both;
+    }
+
+    .download {
+      appearance: none;
+      border: 0;
+      border-radius: 999px;
+      padding: 16px 28px;
+      min-width: min(320px, 100%);
+      background: linear-gradient(180deg, #25987c 0%, var(--accent-deep) 100%);
+      color: #fff;
+      font: inherit;
+      font-size: 1.05rem;
+      font-weight: 800;
+      letter-spacing: 0.01em;
+      text-decoration: none;
+      animation: softPulse 3.2s ease-in-out infinite;
+      transition: transform 0.18s ease, filter 0.18s ease;
+    }
+
+    .download:hover {
+      transform: translateY(-2px);
+      filter: brightness(1.05);
+    }
+
+    .download:active { transform: translateY(1px) scale(0.98); }
+
+    .qr-wrap {
+      width: min(260px, 100%);
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      background: rgba(243, 248, 251, 0.88);
+      backdrop-filter: blur(8px);
+    }
+
+    .qr-wrap img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      background: #fff;
+    }
+
+    .qr-caption {
+      margin: 12px 0 0;
+      color: rgba(6, 32, 51, 0.65);
+      font-size: 0.92rem;
+      line-height: 1.4;
+    }
+
+    .meta {
+      margin-top: 18px;
+      color: rgba(6, 32, 51, 0.55);
+      font-size: 0.85rem;
+      line-height: 1.45;
+      word-break: break-all;
+    }
+
+    .note {
+      margin-top: 28px;
+      color: rgba(6, 32, 51, 0.62);
+      font-size: 0.9rem;
+      line-height: 1.45;
+      max-width: 42ch;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="stage">
+      <h1 class="brand">Клинические рекомендации для СМП</h1>
+      <p class="lead">Офлайн-справочник протоколов. Скачайте приложение на Android и установите на телефон.</p>
+
+      <div class="actions">
+        <a class="download" id="download" href="./app-release.apk" download="smp-guide.apk">Скачать для Android</a>
+
+        <div class="qr-wrap">
+          <img id="qr" src="./qr.svg" width="220" height="220" alt="QR-код для скачивания приложения" />
+          <p class="qr-caption">Наведите камеру телефона на код</p>
+        </div>
+      </div>
+
+      <p class="meta" id="link">https://smp-guide.com.ru/</p>
+      <p class="note">Открывайте https://smp-guide.com.ru/ — на экране должен быть этот заголовок. После скачивания разрешите установку из этого источника.</p>
+    </section>
+  </main>
+  <script>
+    (function () {
+      var page = "https://smp-guide.com.ru/";
+      var apk = new URL("./app-release.apk", window.location.href).href;
+      var download = document.getElementById("download");
+      var link = document.getElementById("link");
+      download.href = apk;
+      link.textContent = page;
+    })();
+  </script>
+</body>
+</html>

@@ -23,3 +23,5 @@ app/ios/Flutter/ephemeral/
 app/ios/Runner/GeneratedPluginRegistrant.*
 *.iml
 .idea/
+download/*.apk
+download/qr.svg
